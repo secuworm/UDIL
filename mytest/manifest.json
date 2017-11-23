@@ -1,5 +1,5 @@
 {
-  "name": "Cuckoo Test",
+  "name": "Udl",
   "manifest_version": 2,
   "version": "0.1.3",
   "description": "Cuckoo Test.",
@@ -11,16 +11,23 @@
   },
 
   "browser_action": {
-    "default_icon": "resources/icon_032.png"
+    "default_icon": "resources/icon_032.png",
+	"default_popup": "mytest.html"
   },
 
   "options_page": "mytest.html",
-
+  
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["jquery-3.2.1.js", "background.js"]
   },
   
-  "web_accessible_resources": ["mytest.html"],
+  "web_accessible_resources": ["mytest.css", "mytest.js"],
   
-   "permissions": ["contextMenus",  "tabs", "downloads", "http://*/*"]
+   "permissions": [
+	   "contextMenus",  
+	   "tabs", 
+	   "downloads", 
+	   "downloads.shelf", 
+	   "http://*/*",
+	   "storage"]
 }
