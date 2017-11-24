@@ -28,6 +28,6 @@
 	   "tabs", 
 	   "downloads", 
 	   "downloads.shelf", 
-	   "http://*/*",
+	   "*://*/*",
 	   "storage"]
 }

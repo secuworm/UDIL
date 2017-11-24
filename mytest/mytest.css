@@ -1,102 +1,56 @@
-// More practical CSS...
-// using mobile first method (IE8,7 requires respond.js polyfill https://github.com/scottjehl/Respond)
-
-$breakpoint-alpha: 480px; // adjust to your needs
-
-.rwd-table {
-  margin: 1em 0;
-  min-width: 300px; // adjust to your needs
-  
-  tr {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    display: none; // for accessibility, use a visually hidden method here instead! Thanks, reddit!   
-  }
-  
-  td {
-    display: block; 
-    
-    &:first-child {
-      padding-top: .5em;
-    }
-    &:last-child {
-      padding-bottom: .5em;
-    }
-
-    &:before {
-      content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
-      font-weight: bold;
-
-      // optional stuff to make it look nicer
-      width: 6.5em; // magic number :( adjust according to your own content
-      display: inline-block;
-      // end options
-      
-      @media (min-width: $breakpoint-alpha) {
-        display: none;
-      }
-    }
-  }
-  
-  th, td {
-    text-align: left;
-    
-    @media (min-width: $breakpoint-alpha) {
-      display: table-cell;
-      padding: .25em .5em;
-      
-      &:first-child {
-        padding-left: 0;
-      }
-      
-      &:last-child {
-        padding-right: 0;
-      }
-    }
-
-  }
-  
-  
-}
-
-
-// presentational styling
-
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
-
-body {
-  padding: 0 2em;
-  font-family: Montserrat, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  color: #444;
-  background: #eee;
-}
-
-h1 {
-  font-weight: normal;
-  letter-spacing: -1px;
-  color: #34495E;
-}
-
-.rwd-table {
-  background: #34495E;
-  color: #fff;
-  border-radius: .4em;
-  overflow: hidden;
-  tr {
-    border-color: lighten(#34495E, 10%);
-  }
-  th, td {
-    margin: .5em 1em;
-    @media (min-width: $breakpoint-alpha) { 
-      padding: 1em !important; 
-    }
-  }
-  th, td:before {
-    color: #dd5;
-  }
-}
+		body {
+			font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+		}
+		
+		/* Table */
+		.demo-table {
+			border-collapse: collapse;
+			font-size: 13px;
+		}
+		.demo-table th, 
+		.demo-table td {
+			border: 1px solid #000000;
+			padding: 7px 17px;
+		}
+		.demo-table .title {
+			caption-side: bottom;
+			margin-top: 12px;
+		}
+		
+		/* Table Header */
+		.demo-table thead th {
+			background-color: #508abb;
+			color: #FFFFFF;
+			border-color: #6ea1cc !important;
+			text-transform: uppercase;
+		}
+		
+		/* Table Body */
+		.demo-table tbody td {
+			color: #353535;
+		}
+		.demo-table tbody td:first-child,
+		.demo-table tbody td:last-child,
+		.demo-table tbody td:nth-child(4) {
+			text-align: right;
+		}
+		.demo-table tbody tr:nth-child(odd) td {
+			background-color: #f4fbff;
+		}
+		.demo-table tbody tr:hover td {
+			background-color: #ffffa2;
+			border-color: #ffff0f;
+			transition: all .2s;
+		}
+		
+		/* Table Footer */
+		.demo-table tfoot th {
+			background-color: #e5f5ff;
+		}
+		.demo-table tfoot th:first-child {
+			text-align: left;
+		}
+		.demo-table tbody td:empty
+		{
+			background-color: #ffcccc;
+		}
