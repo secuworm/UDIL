@@ -1,0 +1,4270 @@
+Done1.
+Backdoor.IRC.Ataka.a analyzing.. 
+['IMUL', 'ADD', 'POP', 'POP']
+['INC', 'DEC', 'INS', 'OUTS']
+['INC', 'ADD', 'ADD', 'CMPSB']
+['ADC', 'ADC', 'ADC', 'INS']
+['LEA', 'CALL', 'CMP', 'JNZ']
+['XCHG', 'XCHG', 'XCHG', 'IN']
+['POPA', 'INC', 'JS', 'JZ']
+['PUSH', 'IMUL', 'IMUL', 'IN']
+['POPA', 'JZ', 'ADD', 'POP']
+['PUSH', 'DEC', 'DEC', 'DEC']
+['JB', 'POP', 'ADD', 'IMUL']
+['LEA', 'MOV', 'MOV', 'CALL']
+['DEC', 'ADD', 'POP', 'OR']
+['DEC', 'ADD', 'ADD', 'INC']
+['ADD', 'ADD', 'OUT', 'POPA']
+['LEA', 'PUSH', 'PUSH', 'MOV']
+['POP', 'OR', 'ADC', 'ADD']
+['AND', 'PUSH', 'ADD', 'XOR']
+['INS', 'ADD', 'JBE', 'POPA']
+['SBB', 'ADC', 'ADC', 'SUB']
+['PCMPGTD', 'MOVSB', 'PCMPGTD', 'ADD']
+['ADD', 'ADD', 'CWD', 'XOR']
+['ADD', 'IMUL', 'POP', 'IN']
+['CMPSB', 'XLAT', 'CLTS', 'IMUL']
+['ADD', 'ADD', 'DEC', 'JO']
+['PUSH', 'ADD', 'XOR', 'INC']
+['PUSH', 'ADD', 'SBB', 'ADD']
+['ADD', 'PUSH', 'JNZ', 'JB']
+['TEST', 'INC', 'ADD', 'DB']
+['JZ', 'SUB', 'JNZ', 'MOV']
+['INS', 'AND', 'OUTS', 'OUTS']
+['FNSTCW', 'CLI', 'ADD', 'OUT']
+['ADD', 'POP', 'INC', 'ADD']
+['PUSH', 'MOV', 'CALL', 'ADD']
+['TEST', 'MOV', 'XCHG', 'OR']
+['XCHG', 'XCHG', 'ADD', 'ADD']
+['JO', 'OUTS', 'DEC', 'JNS']
+['ADD', 'LODSB', 'AND', 'ADD']
+['PUSH', 'MOV', 'PUSH', 'MOV']
+['ADC', 'ADC', 'LES', 'INT']
+['POP', 'INS', 'INS', 'SLDT']
+['INT', 'CDQ', 'XOR', 'INT']
+['PUSH', 'JO', 'JZ', 'OUTS']
+['POP', 'INC', 'DEC', 'ARPL']
+['INC', 'JS', 'JO', 'IMUL']
+['ADD', 'MOV', 'PUSH', 'PCMPGTD']
+['ADD', 'ADD', 'DAA', 'ADD']
+['INS', 'ADD', 'ADD', 'DEC']
+['XOR', 'INS', 'INS', 'ADD']
+['XCHG', 'POP', 'ADD', 'POP']
+['XCHG', 'DEC', 'DEC', 'DEC']
+['PUSH', 'CALL', 'FSTP', 'MOV']
+['ADD', 'PUSH', 'INC', 'INC']
+['LEA', 'CALL', 'LEA', 'LEA']
+['ADC', 'PUSH', 'ADC', 'MOVUPS']
+['CALL', 'LEA', 'MOV', 'CALL']
+['TEST', 'ADC', 'ADC', 'XCHG']
+['PUSH', 'OUTS', 'PUSH', 'OUTS']
+['JA', 'ADD', 'ADD', 'INC']
+['ADD', 'OUTS', 'ARPL', 'PUSH']
+['PUSH', 'MOV', 'CALL', 'TEST']
+['PUSH', 'PUSH', 'MOV', 'MOV']
+['PUSH', 'IMUL', 'JZ', 'IMUL']
+['JZ', 'PUSH', 'OUTS', 'INC']
+['XCHG', 'ADD', 'POP', 'INS']
+['IMUL', 'OUTS', 'ADD', 'ADD']
+['ADC', 'MOV', 'ADC', 'ADC']
+['ADD', 'DB', 'XOR', 'ADD']
+['PUSH', 'MOV', 'MOV', 'XOR']
+['ADD', 'ADD', 'INC', 'ADD']
+['XOR', 'INC', 'ADD', 'ADD']
+['SALC', 'OUT', 'ADD', 'OUT']
+['INC', 'JS', 'ADD', 'ADD']
+['POP', 'JBE', 'POPA', 'INC']
+['CALL', 'MOV', 'MOV', 'POP']
+['MOV', 'XCHG', 'OR', 'PUSHF']
+['ADD', 'XADD', 'ADD', 'LOOPNZ']
+['IMUL', 'INC', 'ADD', 'INS']
+['INC', 'JB', 'PUSH', 'JZ']
+['ADC', 'OR', 'SBB', 'ADC']
+['XCHG', 'PUSH', 'IMUL', 'IN']
+['XOR', 'ADD', 'POP', 'POP']
+['AND', 'CDQ', 'ADD', 'ADD']
+['DB', 'CALL', 'ADD', 'INC']
+['ADD', 'SBB', 'SBB', 'SBB']
+['DEC', 'JAE', 'JB', 'ADD']
+['ADD', 'INS', 'ADD', 'ADD']
+['ADD', 'ADD', 'AND', 'OR']
+['INC', 'XOR', 'XOR', 'XOR']
+['XCHG', 'ADD', 'ADD', 'POP']
+['OUTS', 'JB', 'ADD', 'ADD']
+['POPA', 'JB', 'OUTS', 'JO']
+['ADD', 'ADD', 'ADD', 'CDQ']
+['JBE', 'JO', 'XOR', 'INS']
+['PUSH', 'ADD', 'ADD', 'MOV']
+['ARPL', 'SUB', 'ADD', 'ADD']
+['INC', 'ADD', 'ADD', 'JG']
+['ADC', 'INS', 'ADC', 'JZ']
+['ADD', 'ADD', 'INT', 'XOR']
+['OUTS', 'ADD', 'ADD', 'JBE']
+['PUSH', 'MOV', 'PUSH', 'CALL']
+['OR', 'CMP', 'ADC', 'OR']
+['DEC', 'JZ', 'OUTS', 'ADD']
+['ADD', 'FSUB', 'INC', 'ADD']
+['INS', 'ADD', 'ADD', 'PUSH']
+['ADD', 'OUT', 'POPA', 'ADD']
+['XOR', 'ADD', 'ADD', 'PUSH']
+['ADC', 'LES', 'ADC', 'ADC']
+['MOV', 'MOV', 'MOV', 'AND']
+['ADD', 'JMP', 'ADD', 'ADD']
+['INC', 'DB', 'CMP', 'SBB']
+['IMUL', 'ADD', 'ADD', 'ADD']
+['INS', 'POPA', 'POP', 'DEC']
+['ADD', 'INT', 'CDQ', 'ADD']
+['BOUND', 'IMUL', 'POP', 'POP']
+['AND', 'ADD', 'ADD', 'OR']
+['POP', 'INC', 'DEC', 'POPA']
+['INT', 'INC', 'XOR', 'XOR']
+['INC', 'JMP', 'DB', 'DB']
+['ADD', 'PUSH', 'DB', 'INC']
+['ADC', 'CMP', 'ADC', 'ADC']
+['PUSH', 'PUSH', 'LEA', 'MOV']
+['ADC', 'LES', 'INT', 'ADC']
+['PUSH', 'ADD', 'INC', 'ADD']
+['ADD', 'ADD', 'ADD', 'INS']
+['DEC', 'ADD', 'POP', 'ADD']
+['SUB', 'ADD', 'ADD', 'ADD']
+['XADD', 'ADD', 'LOOPNZ', 'ADD']
+['OR', 'INC', 'OR', 'DEC']
+['IMUL', 'ADD', 'ADD', 'OR']
+['WAIT', 'PUSH', 'JMP', 'LEA']
+['AND', 'ADD', 'OR', 'JNZ']
+['INT', 'ADD', 'INT', 'INC']
+['ADC', 'ADD', 'XOR', 'ADD']
+['PUSH', 'PUSH', 'ADD', 'SBB']
+['OUTS', 'PUSH', 'OUTS', 'IMUL']
+['ADD', 'ADD', 'ADD', 'POP']
+['CDQ', 'INC', 'XOR', 'ADD']
+['ADD', 'ADD', 'INC', 'CDQ']
+['MOVSD', 'ADD', 'POP', 'ADD']
+['INC', 'ADD', 'POP', 'AND']
+['LEA', 'CALL', 'RET', 'LEA']
+['ADD', 'MOV', 'XCHG', 'PUSH']
+['DEC', 'IMUL', 'POP', 'POPA']
+['DEC', 'OUTS', 'JB', 'ADD']
+['INC', 'ADD', 'ADD', 'DB']
+['PUSH', 'PUSH', 'ADD', 'DEC']
+['LODSB', 'ADC', 'MOV', 'ADC']
+['ADD', 'INS', 'ADD', 'IMUL']
+['IMUL', 'ADD', 'PUSH', 'JO']
+['ADD', 'ADD', 'INC', 'DEC']
+['XOR', 'ADD', 'SALC', 'XOR']
+['PUSH', 'CALL', 'MOV', 'PUSH']
+['DB', 'DB', 'DB', 'DB']
+['ADD', 'INC', 'ADD', 'POP']
+['XOR', 'ADD', 'XOR', 'ADD']
+['JAE', 'POP', 'ADD', 'JNZ']
+['OR', 'JZ', 'ADC', 'OR']
+['POP', 'IN', 'INS', 'INS']
+['JB', 'ADD', 'ADD', 'PUSH']
+['MOV', 'MOV', 'MOV', 'CALL']
+['IMUL', 'POPA', 'ADD', 'ADD']
+['XOR', 'PUSH', 'MOV', 'CALL']
+['INS', 'JZ', 'PUSH', 'BOUND']
+['OUTS', 'ADD', 'ADD', 'JZ']
+['INC', 'INC', 'INC', 'SBB']
+['ADD', 'ADD', 'XCHG', 'INS']
+['ADD', 'JNZ', 'JB', 'JB']
+['INC', 'JS', 'JZ', 'JB']
+['ADD', 'CDQ', 'INT', 'ADD']
+['JB', 'INS', 'POPA', 'POP']
+['AND', 'ADD', 'ADD', 'AAD']
+['ADC', 'ADC', 'HLT', 'ADC']
+['OR', 'ADC', 'ADD', 'ADD']
+['LEA', 'CALL', 'PUSH', 'MOV']
+['INT', 'INT', 'INT', 'INT']
+['AND', 'ADD', 'POP', 'INC']
+['PUSH', 'PUSH', 'CALL', 'FNCLEX']
+['INT', 'ADD', 'INC', 'ADD']
+['ADD', 'JZ', 'JB', 'IMUL']
+['ADD', 'INC', 'ADD', 'CMP']
+['ADD', 'AND', 'ADD', 'XOR']
+['SBB', 'AND', 'AND', 'SUB']
+['CLI', 'ADD', 'OUT', 'OUT']
+['DEC', 'IMUL', 'POP', 'POP']
+['ADD', 'INT', 'INC', 'ADD']
+['ADD', 'INS', 'ADD', 'PUSH']
+['PUSH', 'INC', 'INS', 'OUTS']
+['ADD', 'XOR', 'ADD', 'SUB']
+['CDQ', 'ADD', 'INT', 'CDQ']
+['DB', 'XOR', 'ADD', 'ADD']
+['ADD', 'POP', 'ADD', 'IMUL']
+['INT', 'XOR', 'INT', 'CDQ']
+['POPA', 'JZ', 'OUTS', 'ADD']
+['POPA', 'PUSH', 'POPA', 'JB']
+['CLD', 'OR', 'ADD', 'ADC']
+['PUSH', 'DB', 'INC', 'ADD']
+['ADC', 'INC', 'PUSH', 'PCMPGTD']
+['JMP', 'ADD', 'ADD', 'ADD']
+['ADD', 'JZ', 'AND', 'PUSH']
+['ADD', 'ADD', 'ADD', 'ROL']
+['MOV', 'MOV', 'JZ', 'SUB']
+['INS', 'OUTS', 'ADD', 'ADD']
+['MOV', 'POP', 'RET', 'NOP']
+['MOV', 'MOV', 'PUSH', 'CALL']
+['OUTS', 'JAE', 'DEC', 'JNS']
+['OUTS', 'ADD', 'ADD', 'POP']
+['CALL', 'FNCLEX', 'CMP', 'JGE']
+['CMP', 'ADD', 'FSUB', 'INC']
+['INC', 'INS', 'JZ', 'PUSH']
+['JBE', 'POPA', 'DEC', 'XOR']
+['INC', 'JS', 'ADD', 'AND']
+['ADD', 'INT', 'INT', 'ADD']
+['SBB', 'SBB', 'XCHG', 'INS']
+['PUSH', 'MOV', 'CALL', 'PUSH']
+['POPA', 'INC', 'JB', 'OUTS']
+['JZ', 'POP', 'ADD', 'IMUL']
+['PUSH', 'IMUL', 'XOR', 'ADD']
+['ADD', 'JBE', 'POPA', 'INC']
+['ADD', 'SBB', 'SBB', 'MOV']
+['RET', 'RET', 'MOV', 'MOV']
+['CALL', 'XOR', 'CALL', 'CDQ']
+['RETF', 'ADD', 'XLAT', 'XLAT']
+['JZ', 'DEC', 'OUTS', 'JBE']
+['POP', 'SBB', 'SBB', 'SBB']
+['ADD', 'PUSH', 'ADD', 'SBB']
+['ADD', 'INC', 'ADD', 'DEC']
+['ADD', 'INT', 'INT', 'INT']
+['PUSH', 'IMUL', 'XOR', 'IMUL']
+['ADD', 'ADD', 'JB', 'OUTS']
+['PUSH', 'XOR', 'ADD', 'IN']
+['JB', 'ADD', 'ADD', 'POP']
+['ADD', 'PUSH', 'INC', 'DB']
+['MOV', 'PUSH', 'JMP', 'LEA']
+['MOV', 'LEA', 'ADC', 'INC']
+['JZ', 'POPA', 'INS', 'JNZ']
+['XCHG', 'IN', 'IN', 'IN']
+['ADD', 'SALC', 'OUT', 'ADD']
+['INS', 'OUTS', 'JAE', 'DEC']
+['ADD', 'ADD', 'XCHG', 'DB']
+['CDQ', 'XOR', 'INT', 'CDQ']
+['INC', 'PUSH', 'INC', 'JS']
+['ADD', 'IMUL', 'PUSH', 'ADD']
+['PUSH', 'PUSH', 'JB', 'JB']
+['ADD', 'PUSH', 'JO', 'INS']
+['XOR', 'XOR', 'ADD', 'CALL']
+['ADD', 'ADD', 'POPA', 'ADD']
+['PUSH', 'ADD', 'XOR', 'AND']
+['ADD', 'ADD', 'ADD', 'IMUL']
+['STOSD', 'OR', 'PUSH', 'OR']
+['POP', 'DEC', 'ADD', 'POP']
+['INC', 'DEC', 'ARPL', 'ADD']
+['ADD', 'DB', 'DEC', 'ADD']
+['SUB', 'NOP', 'XOR', 'MOV']
+['ARPL', 'ADD', 'POP', 'POP']
+['DEC', 'PUSH', 'POP', 'PUSH']
+['MOV', 'ARPL', 'SUB', 'ADD']
+['INS', 'PUSH', 'IMUL', 'PUSH']
+['ADD', 'INC', 'ADD', 'OUTS']
+['CDQ', 'XOR', 'CDQ', 'CWD']
+['ADD', 'DEC', 'PUSH', 'INC']
+['INT', 'ADD', 'INT', 'XOR']
+['PUSH', 'ADD', 'OR', 'ADD']
+['DEC', 'IMUL', 'OUTS', 'ADD']
+['MOV', 'CALL', 'PUSH', 'LEA']
+['DB', 'INC', 'ADD', 'ADD']
+['ADD', 'JBE', 'POPA', 'PUSH']
+['ADD', 'JMP', 'DB', 'CALL']
+['OR', 'AND', 'ADC', 'OR']
+['ADD', 'STI', 'INC', 'MOVSB']
+['MOV', 'MOV', 'MOV', 'LEA']
+['INC', 'ADD', 'AND', 'ADD']
+['ADD', 'CMP', 'INC', 'ADD']
+['XCHG', 'ADD', 'XCHG', 'ADD']
+['ADC', 'ADC', 'LES', 'ADC']
+['MOV', 'PUSH', 'INC', 'ADD']
+['OUTS', 'IMUL', 'ADD', 'PUSH']
+['PUSH', 'ADD', 'POPA', 'ADD']
+['SUB', 'ADC', 'OR', 'CMP']
+['ADD', 'POP', 'ADC', 'POP']
+['ADD', 'POP', 'POP', 'JBE']
+['PUSH', 'JZ', 'PUSH', 'OUTS']
+['ADD', 'ADD', 'LODSD', 'XOR']
+['CALL', 'RET', 'RET', 'MOV']
+['AND', 'ADD', 'ADD', 'ADD']
+['JMP', 'ADD', 'ADD', 'CWD']
+['SBB', 'INS', 'SLDT', 'ADD']
+['LES', 'INT', 'ADC', 'AAM']
+['ADD', 'ADD', 'PUSH', 'INC']
+['ADC', 'OR', 'XCHG', 'OR']
+['OR', 'SUB', 'ADC', 'OR']
+['ADD', 'ADD', 'OUTS', 'ARPL']
+['ADD', 'ADD', 'ADC', 'INC']
+['DEC', 'ADD', 'INS', 'ADD']
+['ADD', 'LOOPNZ', 'ADD', 'LOCK']
+['INT', 'ADD', 'INT', 'ADD']
+['ADD', 'ADC', 'MOV', 'POP']
+['POPA', 'PUSH', 'JZ', 'JNS']
+['OR', 'IN', 'ADC', 'OR']
+['PUSH', 'ADD', 'ADD', 'ADD']
+['POP', 'PUSH', 'DEC', 'DEC']
+['OR', 'SBB', 'ADC', 'OR']
+['XOR', 'XOR', 'ADD', 'INC']
+['ARPL', 'JB', 'OUTS', 'ADD']
+['CMP', 'SBB', 'ADD', 'ADD']
+['OR', 'DEC', 'OR', 'PUSH']
+['PUSHA', 'POPA', 'JZ', 'ADD']
+['OR', 'XCHG', 'OR', 'PUSHF']
+['SBB', 'MOV', 'SBB', 'SBB']
+['JZ', 'PUSH', 'POPA', 'INS']
+['ADD', 'INC', 'INC', 'ADD']
+['PUSHA', 'XOR', 'INC', 'ADD']
+['ADD', 'PUSH', 'ADD', 'INC']
+['ARPL', 'PUSH', 'INC', 'DEC']
+['ADD', 'PUSH', 'JZ', 'POPA']
+['DEC', 'POP', 'PUSH', 'JNZ']
+['MOV', 'POP', 'POP', 'MOV']
+['ADD', 'CLC', 'XOR', 'ADD']
+['INS', 'ADD', 'JB', 'ARPL']
+['ADD', 'ADD', 'OUT', 'OUT']
+['POPA', 'INC', 'JB', 'PUSH']
+['MOV', 'PUSH', 'PUSH', 'MOV']
+['ADD', 'ADD', 'JB', 'IMUL']
+['INS', 'INS', 'INS', 'JNZ']
+['ADD', 'ADD', 'PUSH', 'PUSH']
+['MOV', 'MOV', 'CALL', 'MOV']
+['POPA', 'PUSH', 'JO', 'POPA']
+['PUSH', 'CALL', 'MOV', 'CALL']
+['JB', 'JBE', 'ADD', 'PUSH']
+['PUSH', 'CALL', 'TEST', 'JGE']
+['XOR', 'INT', 'XOR', 'ADD']
+['POPA', 'ADD', 'INC', 'ADD']
+['ADD', 'ADD', 'SUB', 'NOP']
+['XCHG', 'INS', 'JMP', 'ADC']
+['INC', 'ADD', 'INS', 'ADD']
+['ADD', 'AND', 'ADD', 'ADD']
+['ADD', 'ADD', 'ADD', 'ADC']
+['PUSH', 'XOR', 'ADD', 'XOR']
+['JNZ', 'ADD', 'ADD', 'ADD']
+['OUTS', 'INC', 'POPA', 'INS']
+['PUSH', 'MOV', 'MOV', 'MOV']
+['STOSB', 'ADD', 'XCHG', 'ADD']
+['JB', 'ARPL', 'PUSH', 'ADD']
+['JZ', 'PUSH', 'POPA', 'JB']
+['PUSH', 'PUSH', 'PUSH', 'LEA']
+['MOV', 'PUSH', 'MOV', 'MOV']
+['DEC', 'ADD', 'DEC', 'XOR']
+['ADD', 'XOR', 'XOR', 'XOR']
+['ADD', 'PUSH', 'ADD', 'PUSH']
+['CWD', 'ADD', 'INT', 'ADD']
+['INC', 'ADD', 'ADC', 'ADD']
+['POP', 'NOP', 'ADD', 'ADD']
+['ADC', 'INC', 'ADD', 'ADD']
+['AND', 'ADC', 'OR', 'XOR']
+['CALL', 'LEA', 'PUSH', 'PUSH']
+['INS', 'INS', 'PUSH', 'IMUL']
+['POP', 'ADD', 'DEC', 'ADD']
+['MOV', 'ADC', 'ADC', 'LES']
+['MOV', 'MOV', 'MOV', 'JZ']
+['ADD', 'INC', 'ADD', 'OR']
+['JZ', 'JS', 'ADD', 'ADD']
+['IN', 'INT', 'ADD', 'SALC']
+['INS', 'XOR', 'ADD', 'POP']
+['ADD', 'ADD', 'XOR', 'ADD']
+['AND', 'XCHG', 'INC', 'INC']
+['MOV', 'LEA', 'XOR', 'PUSH']
+['JB', 'JB', 'INS', 'AND']
+['PUSH', 'PUSH', 'CALL', 'PUSH']
+['INT', 'XOR', 'INT', 'INT']
+['RETF', 'ADD', 'ADD', 'OR']
+['CDQ', 'XOR', 'ADD', 'ADD']
+['ADD', 'DEC', 'DEC', 'DEC']
+['MOV', 'MOV', 'LEA', 'PUSH']
+['MOV', 'MOV', 'MOV', 'ARPL']
+['INS', 'ADD', 'DEC', 'ADD']
+['ADD', 'ADD', 'INC', 'INS']
+['PUSH', 'POPA', 'JB', 'IMUL']
+['SLDT', 'ADD', 'ADD', 'SBB']
+['XCHG', 'OR', 'PUSHF', 'OR']
+['BOUND', 'ADD', 'ADD', 'PUSH']
+['DB', 'INC', 'AND', 'ADD']
+['POP', 'MOV', 'STD', 'POP']
+['JZ', 'PUSH', 'BOUND', 'ADD']
+['POPA', 'JB', 'PUSH', 'POPA']
+['LEA', 'CALL', 'LEA', 'CALL']
+['ADD', 'INC', 'DEC', 'PUSH']
+['POP', 'ADD', 'JA', 'XCHG']
+['XOR', 'OR', 'STOSB', 'ADD']
+['ADD', 'ADD', 'IN', 'INT']
+['XCHG', 'ADC', 'ADD', 'ADD']
+['XOR', 'CWD', 'ADD', 'CDQ']
+['POP', 'INC', 'DEC', 'INS']
+['JNZ', 'PUSH', 'PUSH', 'CALL']
+['ADD', 'MOV', 'INC', 'ADD']
+['JB', 'ADD', 'ADD', 'JBE']
+['ADD', 'INT', 'ADD', 'INC']
+['DEC', 'XOR', 'POPA', 'JB']
+['ADD', 'DAA', 'ADD', 'POP']
+['SBB', 'SBB', 'XCHG', 'ADD']
+['ADD', 'INS', 'MOV', 'PCMPGTD']
+['SUB', 'ADD', 'ADD', 'XOR']
+['ADC', 'PUSHF', 'ADC', 'MOVSB']
+['ADD', 'ADD', 'MOV', 'INC']
+['POPA', 'INC', 'OUTS', 'ADD']
+['ADD', 'JB', 'IMUL', 'OUTS']
+['ADD', 'POP', 'ADD', 'INC']
+['XOR', 'CDQ', 'XOR', 'CDQ']
+['ADD', 'ADD', 'OR', 'JZ']
+['MOV', 'AND', 'PUSH', 'MOV']
+['CALL', 'PUSH', 'PUSH', 'CALL']
+['POP', 'OR', 'OR', 'INS']
+['JB', 'ADD', 'POP', 'POP']
+['INT', 'ADD', 'SALC', 'OUT']
+['JZ', 'INS', 'INC', 'JB']
+['JNZ', 'INC', 'ADD', 'AND']
+['ADD', 'SUB', 'ADD', 'CMP']
+['LEA', 'PUSH', 'PUSH', 'CALL']
+['MOVS', 'MOV', 'MOV', 'MOV']
+['JO', 'POPA', 'OUTS', 'ADD']
+['AND', 'ADD', 'ADD', 'FSUB']
+['ADC', 'PUSH', 'ADC', 'PUSH']
+['XCHG', 'ADC', 'PUSHF', 'ADC']
+['JB', 'JAE', 'IMUL', 'ADD']
+['INC', 'ADD', 'JBE', 'POPA']
+['ADD', 'POPA', 'ADD', 'JAE']
+['JMP', 'LEA', 'CALL', 'RET']
+['INT', 'INT', 'INT', 'PUSH']
+['JZ', 'DEC', 'JNS', 'JS']
+['ADC', 'OR', 'ADC', 'OR']
+['NOP', 'NOP', 'PUSH', 'MOV']
+['JB', 'PUSH', 'JZ', 'ADD']
+['ADC', 'ADC', 'OR', 'AND']
+['DEC', 'POP']
+['XOR', 'ADD', 'ADD', 'CWD']
+['CALL', 'MOV', 'PUSH', 'JMP']
+['XCHG', 'IN', 'IN', 'INS']
+['DEC', 'JAE', 'OUTS', 'ADD']
+['JB', 'OUTS', 'ADD', 'ADD']
+['DEC', 'ADD', 'ADD', 'ADD']
+['ADD', 'INC', 'AND', 'DB']
+['JZ', 'ADD', 'ADD', 'INC']
+['MOV', 'MOV', 'CALL', 'CMP']
+['ADD', 'INC', 'ADD', 'ADC']
+['ADD', 'JB', 'JAE', 'IMUL']
+['PADDUSW', 'PUSH', 'IMUL', 'IN']
+['CWD', 'ADD', 'CDQ', 'ADD']
+['PUSH', 'PUSH', 'MOV', 'PUSH']
+['ADD', 'ADD', 'POP', 'INC']
+['INC', 'JS', 'JO', 'DEC']
+['SBB', 'ADD', 'ADD', 'ADD']
+['XOR', 'INC', 'ADD', 'SUB']
+['PUSH', 'ADC', 'MOVUPS', 'MOVUPS']
+['POP', 'INC', 'DEC', 'JS']
+['ADD', 'XCHG', 'XCHG', 'IMUL']
+['LOOPNZ', 'ADD', 'LOCK', 'ADD']
+['ADC', 'XOR', 'ADC', 'ADC']
+['ADD', 'DB', 'INC', 'INT']
+['JAE', 'DEC', 'JNS', 'AND']
+['PCMPGTD', 'ADD', 'POP', 'PCMPGTD']
+['JZ', 'IMUL', 'POP', 'PUSH']
+['SBB', 'SBB', 'SBB', 'INS']
+['SUB', 'MOV', 'MOVS', 'MOV']
+['JZ', 'PUSH', 'ADD', 'JB']
+['ADD', 'INS', 'XCHG', 'INS']
+['OR', 'MOV', 'ADC', 'OR']
+['MOV', 'SBB', 'SBB', 'IN']
+['ADD', 'ADD', 'INS', 'MOV']
+['ADD', 'CDQ', 'ADD', 'ADD']
+['ADD', 'OR', 'OR', 'OR']
+['ADD', 'JB', 'XOR', 'ADD']
+['MOV', 'CALL', 'JMP', 'ADD']
+['JMP', 'ADC', 'ADC', 'ADC']
+['DB', 'INC', 'ADD', 'DB']
+['JAE', 'IMUL', 'ADD', 'ADD']
+['IMUL', 'OUTS', 'ADD', 'JAE']
+['ADC', 'POP', 'ADC', 'OR']
+['CDQ', 'INT', 'ADD', 'CDQ']
+['INT', 'INT', 'XOR', 'INT']
+['ADD', 'ADD', 'INS', 'XCHG']
+['POPA', 'JB', 'IMUL', 'POP']
+['AND', 'PUSH', 'ADD', 'INC']
+['ADD', 'NOP', 'ADD', 'STOSD']
+['PUSH', 'ADD', 'JO', 'ADD']
+['INC', 'INC', 'ADD', 'INC']
+['POP', 'PCMPGTD', 'ADD', 'INS']
+['INS', 'XCHG', 'INS', 'INS']
+['JB', 'OUTS', 'JB', 'POP']
+['JAE', 'AND', 'OUTS', 'JB']
+['XOR', 'MOV', 'MOV', 'MOV']
+['AND', 'NOP', 'INC', 'INC']
+['SUB', 'ADD', 'PUSH', 'INC']
+['HLT', 'OR', 'CLD', 'OR']
+['PUSH', 'MOV', 'PUSH', 'PUSH']
+['CMP', 'ADD', 'PUSH', 'INC']
+['CDQ', 'CWD', 'ADD', 'XOR']
+['IN', 'IN', 'IN', 'IN']
+['ADD', 'ADD', 'INC', 'INC']
+['ADC', 'HLT', 'ADC', 'CLD']
+['ADC', 'XCHG', 'ADC', 'PUSHF']
+['ADD', 'AND', 'ADD', 'JB']
+['INC', 'JNZ', 'ARPL', 'OUTS']
+['JNZ', 'INC', 'ADD', 'INC']
+['MOV', 'JL', 'CMP', 'ADD']
+['AAM', 'ADC', 'ADC', 'IN']
+['POP', 'INC', 'ADD', 'ADD']
+['ADD', 'INT', 'ADD', 'CDQ']
+['ADD', 'XCHG', 'SBB', 'SBB']
+['JBE', 'POPA', 'DEC', 'BOUND']
+['JNZ', 'OUTS', 'ADD', 'ADD']
+['ADD', 'ADD', 'IMUL', 'POP']
+['INC', 'ADD', 'DB', 'DB']
+['DEC', 'DEC', 'DEC', 'INC']
+['POP', 'JBE', 'POPA', 'DEC']
+['ADD', 'DB', 'OR', 'ADD']
+['PUSH', 'IMUL', 'ADD', 'POP']
+['ADC', 'ADC', 'ADC', 'AND']
+['SUB', 'ADC', 'ADC', 'CMP']
+['OUTS', 'JB', 'INS', 'POPA']
+['CALL', 'CALL', 'WAIT', 'PUSH']
+['OUTS', 'ARPL', 'PUSH', 'INC']
+['ADD', 'ADD', 'DEC', 'XOR']
+['PUSH', 'ADC', 'POP', 'ADC']
+['ADC', 'POP', 'INC', 'ADD']
+['POP', 'ADD', 'INC', 'ADD']
+['LODSB', 'AND', 'ADD', 'AND']
+['OR', 'ADD', 'ADD', 'ADD']
+['ADD', 'JB', 'ADD', 'XOR']
+['DEC', 'PUSH', 'PUSH', 'INC']
+['ARPL', 'OUT', 'RETF', 'FNSTCW']
+['OUTS', 'ADD', 'JAE', 'POP']
+['JO', 'INS', 'XOR', 'ADD']
+['ADD', 'ADD', 'ADD', 'OUT']
+['ADC', 'TEST', 'MOV', 'XCHG']
+['ADD', 'ADD', 'PUSH', 'DB']
+['XOR', 'ADD', 'ADD', 'POP']
+['PUSH', 'JZ', 'POPA', 'INS']
+['ADD', 'INT', 'XOR', 'INT']
+['PUSH', 'JZ', 'INC', 'POPA']
+['PUSH', 'POP', 'INC', 'ADD']
+['ADD', 'ADD', 'MOV', 'ADD']
+['PUSH', 'INC', 'DEC', 'DEC']
+['RET', 'MOV', 'MOV', 'MOV']
+['INC', 'ADD', 'ADD', 'CMP']
+['ADD', 'POP', 'INC', 'INC']
+['ADC', 'ADD', 'INC', 'ADD']
+['INT', 'INT', 'PUSH', 'MOV']
+['MOV', 'POP', 'MOV', 'POP']
+['PUSH', 'JMP', 'MOV', 'LEA']
+['XOR', 'ADD', 'ADC', 'ADD']
+['ADD', 'ADD', 'CDQ', 'XOR']
+['INC', 'CDQ', 'ADD', 'XOR']
+['ADC', 'ADD', 'ADC', 'ADD']
+['JZ', 'JNS', 'JZ', 'INS']
+['XCHG', 'ADD', 'RETF', 'RETF']
+['LEA', 'PUSH', 'PUSH', 'PUSH']
+['ADD', 'PUSH', 'INC', 'INS']
+['INC', 'ADD', 'POP', 'ADD']
+['XCHG', 'INS', 'SLDT', 'ADD']
+['ADD', 'DB', 'DB', 'DB']
+['DB', 'INC', 'INT', 'ADD']
+['CALL', 'PUSH', 'JMP', 'MOV']
+['ADC', 'ADC', 'DEC', 'ADC']
+['INC', 'ADD', 'ADD', 'PUSH']
+['ADD', 'AND', 'CDQ', 'ADD']
+['ADD', 'ADD', 'ADD', 'DB']
+['ADD', 'ADD', 'ADD', 'JNZ']
+['JBE', 'ADD', 'PUSH', 'INC']
+['HLT', 'ADC', 'CLD', 'ADC']
+['ADD', 'ADD', 'JZ', 'DEC']
+['MOV', 'XOR', 'ADD', 'XOR']
+['POPA', 'INS', 'INS', 'ADD']
+['DEC', 'MOV', 'MOV', 'MOV']
+['INC', 'ADD', 'DB', 'INC']
+['XOR', 'ADD', 'ADD', 'JMP']
+['PUSH', 'JZ', 'ADD', 'ADD']
+['PUSH', 'CALL', 'PUSH', 'MOV']
+['ADD', 'ADD', 'DB', 'DEC']
+['PUSH', 'ADD', 'ADD', 'INC']
+['ADD', 'XCHG', 'DIV', 'SBB']
+['OUTS', 'ADD', 'JB', 'POPA']
+['OUTS', 'OUTS', 'OUTS', 'JZ']
+['INC', 'DEC', 'DEC', 'ADD']
+['DB', 'DB', 'INC', 'AND']
+['XOR', 'INC', 'CMP', 'ARPL']
+['POP', 'INC', 'DEC', 'JAE']
+['POPA', 'POP', 'DEC', 'IMUL']
+['XOR', 'XOR', 'XOR', 'ADD']
+['JB', 'DEC', 'BOUND', 'ADD']
+['ADD', 'ADD', 'XCHG', 'DIV']
+['XOR', 'ADD', 'SUB', 'JMP']
+['ADD', 'ADD', 'ARPL', 'OUT']
+['ADD', 'JNZ', 'OUTS', 'ADD']
+['AND', 'OR', 'ADD', 'AND']
+['DEC', 'ADD', 'ADD', 'POP']
+['INC', 'ADC', 'DEC', 'ADC']
+['JMP', 'LEA', 'CALL', 'LEA']
+['ADD', 'JBE', 'IMUL', 'JAE']
+['OR', 'OR', 'POP', 'DEC']
+['PUSH', 'CALL', 'FNCLEX', 'CMP']
+['JNZ', 'MOV', 'LEA', 'CALL']
+['OR', 'HLT', 'OR', 'CLD']
+['DEC', 'JA', 'ADD', 'ADD']
+['MOV', 'SUB', 'PUSH', 'MOV']
+['ADD', 'NOP', 'ADD', 'ADC']
+['PUSHF', 'OR', 'MOVSB', 'OR']
+['MOV', 'PUSH', 'PCMPGTD', 'ADD']
+['POP', 'ADD', 'XCHG', 'ADD']
+['CLI', 'ADD', 'DEC', 'LODSD']
+['ADD', 'ADD', 'ADD', 'OR']
+['DEC', 'BOUND', 'JZ', 'POP']
+['PUSH', 'POPA', 'JB', 'ADD']
+['RET', 'RET', 'MOV', 'PUSH']
+['ADD', 'ADD', 'CMP', 'INC']
+['INT', 'ADD', 'DEC', 'ADD']
+['DEC', 'DEC', 'POP', 'INC']
+['XOR', 'ADD', 'XOR', 'XOR']
+['ADD', 'ADD', 'INC', 'XOR']
+['OUTS', 'INC', 'JB', 'OUTS']
+['JMP', 'MOV', 'LEA', 'CALL']
+['INT', 'ADD', 'INC', 'CALL']
+['JO', 'INS', 'ADD', 'ADD']
+['MOV', 'PUSH', 'CALL', 'CALL']
+['XOR', 'ADD', 'ADD', 'JBE']
+['SBB', 'POP', 'SBB', 'XCHG']
+['ADD', 'POP', 'POPA', 'PUSH']
+['NOP', 'SAHF', 'SAHF', 'SAHF']
+['INT', 'ADD', 'INC', 'INC']
+['CMC', 'CMC', 'POP', 'IN']
+['POPA', 'ADD', 'AND', 'ADD']
+['ADC', 'ADD', 'ADC', 'ADC']
+['INS', 'ADD', 'PUSH', 'ADD']
+['MOV', 'PUSH', 'PUSH', 'PUSH']
+['MOV', 'LEA', 'PUSH', 'PUSH']
+['INT', 'INC', 'ADD', 'PUSH']
+['PUSH', 'IMUL', 'IN', 'INS']
+['ADD', 'ADC', 'ADD', 'INC']
+['INC', 'ADD', 'PUSH', 'PCMPGTD']
+['ADD', 'ADD', 'ADD', 'INC']
+['INT', 'XOR', 'ADD', 'XOR']
+['INC', 'INT', 'ADD', 'ADD']
+['AND', 'ADD', 'LODSB', 'AND']
+['ADD', 'IMUL', 'POPA', 'ADD']
+['ADC', 'LODSB', 'ADC', 'MOV']
+['ADD', 'MOV', 'OR', 'JZ']
+['PUSH', 'ADD', 'ADD', 'SUB']
+['INT', 'INC', 'INT', 'INC']
+['POP', 'POP', 'IN', 'ADD']
+['INS', 'ADD', 'IMUL', 'OUTS']
+['JMP', 'PUSH', 'CALL', 'ADD']
+['INC', 'ADD', 'XOR', 'ADD']
+['MOV', 'MOV', 'MOV', 'POP']
+['JB', 'OUTS', 'AND', 'AND']
+['ADD', 'ADD', 'ADD', 'DEC']
+['ADD', 'INC', 'INC', 'DB']
+['JZ', 'JMP', 'PUSH', 'MOV']
+['CALL', 'CMP', 'JNZ', 'PUSH']
+['ADD', 'PUSH', 'ADD', 'OR']
+['DEC', 'POP', 'PUSH', 'INS']
+['ADD', 'CLD', 'PUSH', 'ADD']
+['ADD', 'DEC', 'PUSH', 'PUSH']
+['XOR', 'ADD', 'ADD', 'ADD']
+['ADD', 'OR', 'PUSH', 'ADD']
+['MOV', 'MOV', 'LEA', 'XOR']
+['OUTS', 'ADD', 'OUTS', 'ADD']
+['CMP', 'ADC', 'OR', 'DEC']
+['PUSH', 'POP', 'PUSH', 'DEC']
+['SAHF', 'MOV', 'JL', 'CMP']
+['MOV', 'MOV', 'MOV', 'MOV']
+['JO', 'JZ', 'OUTS', 'ADD']
+['INC', 'OR', 'DEC', 'OR']
+['OR', 'OR', 'ADC', 'OR']
+['POP', 'POP', 'MOV', 'POP']
+['ADD', 'SBB', 'ADD', 'INC']
+['SBB', 'SBB', 'MOV', 'SBB']
+['DEC', 'PUSH', 'ADD', 'INC']
+['INC', 'ADD', 'INC', 'ADD']
+['XCHG', 'ADD', 'ADD', 'ADD']
+['TEST', 'JGE', 'PUSH', 'PUSH']
+['LEA', 'MOV', 'CALL', 'PUSH']
+['ADD', 'LODSB', 'ADD', 'ADD']
+['POP', 'ADD', 'ADD', 'ADD']
+['INC', 'INC', 'INC', 'DEC']
+['OR', 'TEST', 'ADC', 'OR']
+['DEC', 'BOUND', 'ADD', 'ADD']
+['PUSH', 'AND', 'ADD', 'OR']
+['ADC', 'MOV', 'POP', 'INC']
+['ADD', 'DEC', 'ADD', 'DEC']
+['ADD', 'JZ', 'JS', 'ADD']
+['INS', 'JNZ', 'INC', 'ADD']
+['TEST', 'ADC', 'OR', 'XCHG']
+['ADD', 'XOR', 'ADD', 'XOR']
+['ADD', 'INC', 'JNZ', 'ARPL']
+['PUSH', 'ADD', 'JB', 'POP']
+['ADD', 'JZ', 'DEC', 'ADD']
+['ADD', 'ADD', 'ADD', 'ADD']
+['POPA', 'INS', 'JNZ', 'INC']
+['CALL', 'LEA', 'CALL', 'MOV']
+['MOV', 'MOV', 'PUSH', 'MOV']
+['ADD', 'ADD', 'CALL', 'MOV']
+['CDQ', 'INC', 'ADD', 'ADD']
+['ADD', 'ADD', 'JBE', 'POPA']
+['ADD', 'ADD', 'POP', 'OR']
+['DEC', 'INS', 'OUTS', 'ADD']
+['PUSH', 'CALL', 'CMP', 'JNZ']
+['ADD', 'INT', 'INC', 'XOR']
+['PUSH', 'ADD', 'INC', 'DEC']
+['ADD', 'JZ', 'IMUL', 'ADD']
+['ADD', 'AAD', 'INC', 'ADD']
+['INC', 'OUTS', 'JAE', 'ADD']
+['POP', 'INC', 'ADD', 'INC']
+['OUTS', 'JAE', 'ADD', 'ADD']
+['ADD', 'ADD', 'PUSH', 'JO']
+['AND', 'ADD', 'JB', 'XOR']
+['MOV', 'PUSH', 'LEA', 'PUSH']
+['ADD', 'DEC', 'JZ', 'OUTS']
+['MOVUPS', 'ADC', 'OR', 'ADC']
+['JZ', 'DEC', 'ADD', 'INS']
+['CDQ', 'ADD', 'CWD', 'ADD']
+['ADD', 'ADD', 'ADD', 'JZ']
+['ADD', 'JB', 'ARPL', 'PUSH']
+['ADD', 'DB', 'INC', 'INC']
+['AAS', 'ADD', 'ADD', 'ADD']
+['ADD', 'CALL', 'ADD', 'ADD']
+['INS', 'JNZ', 'INC', 'JS']
+['CDQ', 'CDQ', 'ADD', 'CDQ']
+['PUSH', 'JO', 'POPA', 'OUTS']
+['JNZ', 'DEC', 'IMUL', 'OUTS']
+['POPA', 'DEC', 'JA', 'ADD']
+['XCHG', 'DIV', 'SBB', 'POP']
+['SBB', 'IN', 'INS', 'INS']
+['ADD', 'CDQ', 'INT', 'XOR']
+['POP', 'OR', 'RCL', 'MOV']
+['POP', 'PUSH', 'INS', 'POPA']
+['DB', 'CMP', 'ADD', 'ADD']
+['OR', 'JBE', 'JO', 'XOR']
+['ADC', 'MOVUPS', 'MOVUPS', 'MOVUPS']
+['ADD', 'OR', 'ADD', 'INC']
+['ADD', 'ADD', 'IN', 'IN']
+['LEA', 'LEA', 'PUSH', 'LEA']
+['INC', 'ADD', 'ADD', 'ADD']
+['JAE', 'ADD', 'ADD', 'POP']
+['ADD', 'ADC', 'ADD', 'ADD']
+['ADC', 'AND', 'ADC', 'ADC']
+['CALL', 'ADD', 'RET', 'RET']
+['ADD', 'ADD', 'FSUB', 'INC']
+['MOV', 'XCHG', 'PUSH', 'IMUL']
+['OUTS', 'JB', 'ADD', 'POP']
+['MOV', 'CALL', 'MOV', 'MOV']
+['SUB', 'JNZ', 'MOV', 'LEA']
+['XOR', 'ADD', 'ADD', 'CDQ']
+['INT', 'OR', 'AAM', 'ADC']
+['PUSH', 'INC', 'DB', 'CMP']
+['JB', 'JAE', 'IMUL', 'POP']
+['MOV', 'PUSH', 'PUSH', 'CALL']
+['DEC', 'INC', 'ADD', 'ADD']
+['POP', 'POP', 'IN', 'INS']
+['FNSTCW', 'CLI', 'ADD', 'DEC']
+['ADD', 'ADD', 'ADC', 'DEC']
+['SUB', 'XOR', 'INC', 'ADD']
+['DEC', 'PUSH', 'ADD', 'DEC']
+['DEC', 'POP', 'NOP']
+['RETF', 'DEC', 'ADD', 'PUSH']
+['INC', 'ADD', 'INT', 'ADD']
+['AND', 'ADC', 'ADD', 'ADD']
+['OR', 'ADD', 'PUSH', 'ADD']
+['MOVSB', 'OR', 'LODSB', 'OR']
+['JBE', 'POPA', 'DEC', 'JB']
+['ADD', 'INT', 'INC', 'INT']
+['XOR', 'ADC', 'OR', 'INC']
+['ADD', 'ADD', 'XCHG', 'CMC']
+['XOR', 'ADC', 'ADC', 'INC']
+['JBE', 'ADD', 'JBE', 'POPA']
+['ADD', 'OR', 'TEST', 'ADD']
+['OR', 'ADD', 'INC', 'ADD']
+['ADD', 'AND', 'ADD', 'SUB']
+['JAE', 'INS', 'ADD', 'ADD']
+['INC', 'INT', 'INC', 'ADD']
+['ADD', 'ADD', 'XCHG', 'XCHG']
+['MOV', 'ADD', 'NOP', 'ADD']
+['ADD', 'ADD', 'JZ', 'JS']
+['PUSH', 'PUSH', 'LEA', 'PUSH']
+['JNZ', 'ADD', 'POP', 'ADC']
+['CMP', 'ADD', 'MOV', 'ADD']
+['PUSH', 'MOV', 'CALL', 'MOV']
+['POP', 'ADD', 'ADD', 'AND']
+['ADD', 'SBB', 'ADD', 'XOR']
+['AND', 'ADC', 'ADC', 'XOR']
+['IMUL', 'JB', 'JBE', 'ADD']
+['MOV', 'LEA', 'MOV', 'PUSH']
+['ADD', 'ADD', 'SUB', 'POP']
+['FSUB', 'INC', 'ADD', 'ADD']
+['LEA', 'CALL', 'MOV', 'PUSH']
+['POP', 'ADD', 'IMUL', 'PUSH']
+['AND', 'ADD', 'ADD', 'JZ']
+['ADC', 'ADC', 'XOR', 'ADC']
+['ADD', 'ADD', 'PUSHA', 'XOR']
+['SBB', 'IN', 'XCHG', 'XCHG']
+['DB', 'CLTS', 'IMUL', 'SBB']
+['INC', 'PUSH', 'ADD', 'ADD']
+['POPA', 'ADD', 'JAE', 'INS']
+['XOR', 'PUSH', 'MOV', 'MOV']
+['POPA', 'JB', 'POPA', 'JB']
+['MOV', 'ADC', 'OR', 'LES']
+['ADD', 'SUB', 'ADD', 'PUSH']
+['ADD', 'XOR', 'ADD', 'ADC']
+['ADD', 'CMP', 'ADD', 'ADD']
+['XCHG', 'INS', 'INS', 'SLDT']
+['JMP', 'AND', 'MOVSD', 'ADD']
+['INC', 'DB', 'PUSH', 'ADD']
+['OR', 'OR', 'OR', 'ADC']
+['OUTS', 'JBE', 'ADD', 'JBE']
+['JMP', 'LEA', 'LEA', 'PUSH']
+['IMUL', 'IMUL', 'IN', 'INS']
+['XOR', 'ADD', 'AND', 'CDQ']
+['PCMPGTD', 'FIADD', 'INT', 'PUSH']
+['CMC', 'SBB', 'MOV', 'IMUL']
+['LEA', 'ADC', 'INC', 'PUSH']
+['DB', 'JMP', 'INC', 'ADD']
+['SBB', 'PADDUSW', 'PUSH', 'IMUL']
+['JMP', 'INT', 'INT', 'INT']
+['OUTS', 'JAE', 'ADD', 'TEST']
+['JB', 'POPA', 'ARPL', 'ADD']
+['ADC', 'ADC', 'AND', 'ADC']
+['ADD', 'AAS', 'ADD', 'ADD']
+['ADD', 'JZ', 'PUSH', 'ADD']
+['JNS', 'AND', 'ADD', 'INC']
+['ADD', 'PUSH', 'INC', 'ADD']
+['MOV', 'LEA', 'CALL', 'PUSH']
+['ADD', 'INS', 'INS', 'PUSH']
+['POPA', 'ADD', 'IMUL', 'POP']
+['PUSH', 'PUSH', 'IMUL', 'IMUL']
+['ADD', 'PUSHA', 'POPA', 'JZ']
+['INC', 'POPA', 'JZ', 'ADD']
+['ADD', 'XCHG', 'OR', 'JBE']
+['OUTS', 'JB', 'ADD', 'JBE']
+['PUSH', 'JNZ', 'JB', 'PUSH']
+['XOR', 'ADD', 'CALL', 'ADD']
+['IMUL', 'IMUL', 'POPA', 'PUSH']
+['SUB', 'JMP', 'ADD', 'ADD']
+['OR', 'PUSH', 'OR', 'JNZ']
+['ADC', 'OR', 'OR', 'ADC']
+['OR', 'ADD', 'PUSH', 'INC']
+['DEC', 'POPA', 'OUTS', 'INS']
+['ADD', 'ADD', 'JZ', 'JB']
+['ADD', 'ADD', 'XCHG', 'POP']
+['DEC', 'DB', 'FISTP', 'SUB']
+['CMPSB', 'MOV', 'ADD', 'NOP']
+['CMC', 'CMC', 'CMC', 'POP']
+['ADD', 'SUB', 'POP', 'ADD']
+['ADD', 'ADD', 'DB', 'DB']
+['ADD', 'ADC', 'ADC', 'ADC']
+['POPA', 'PUSH', 'JZ', 'PUSH']
+['JB', 'ADD', 'JZ', 'PUSH']
+['MOV', 'LEA', 'CALL', 'LEA']
+['JBE', 'ADD', 'ADD', 'JBE']
+['ADC', 'OR', 'ADC', 'ADC']
+['JB', 'IMUL', 'OUTS', 'ADD']
+['JLE', 'ADD', 'XCHG', 'XOR']
+['JNS', 'DEC', 'ADD', 'INS']
+['ADD', 'INT', 'ADD', 'DEC']
+['PUSH', 'CALL', 'LEA', 'PUSH']
+['ADD', 'DB', 'DEC', 'DB']
+['MOV', 'XOR', 'MOV', 'MOV']
+['ADD', 'JNZ', 'ADD', 'ADD']
+['JS', 'ADD', 'ADD', 'ADD']
+['OUT', 'ADD', 'ADD', 'ADD']
+['PUSH', 'JNZ', 'DEC', 'IMUL']
+['ADD', 'ADD', 'XADD', 'ADD']
+['ADD', 'PUSH', 'ADD', 'JB']
+['ADD', 'ADD', 'ADD', 'DAA']
+['XOR', 'CDQ', 'ADD', 'XOR']
+['ADD', 'ADD', 'ADD', 'CALL']
+['ADD', 'CDQ', 'ADD', 'CDQ']
+['ADC', 'SUB', 'PCMPGTD', 'DEC']
+['DEC', 'OUTS', 'JBE', 'ADD']
+['ADD', 'ADD', 'DB', 'INC']
+['XOR', 'ADD', 'ADD', 'SBB']
+['JAE', 'JB', 'ADD', 'ADD']
+['JB', 'OUTS', 'ADD', 'OUTS']
+['XLAT', 'XLAT', 'ADD', 'FSTP']
+['INC', 'ADD', 'POP', 'INC']
+['NOP', 'XOR', 'MOV', 'INC']
+['ADD', 'OR', 'ADD', 'NOP']
+['ADD', 'ADC', 'OR', 'ADC']
+['POP', 'PCMPGTD', 'PUSH', 'AND']
+['SBB', 'SBB', 'SBB', 'SBB']
+['OR', 'TEST', 'ADD', 'XOR']
+['MOV', 'MOV', 'AND', 'MOV']
+['XOR', 'ADD', 'IN', 'XOR']
+['MOV', 'DEC', 'MOV', 'MOV']
+['INC', 'ADD', 'SUB', 'XOR']
+['AND', 'AND', 'SUB', 'SUB']
+['INC', 'INS', 'OUTS', 'JAE']
+['POP', 'POP', 'POP', 'POP']
+['XCHG', 'XCHG', 'XCHG', 'ADD']
+['ADD', 'ADD', 'AAS', 'INC']
+['AND', 'ADD', 'SUB', 'ADD']
+['ADD', 'OR', 'ADD', 'MOV']
+['ADD', 'ADD', 'ADD', 'XCHG']
+['SBB', 'XCHG', 'XCHG', 'XCHG']
+['CALL', 'PUSH', 'MOV', 'MOV']
+['ADD', 'INC', 'ADD', 'PUSH']
+['INC', 'DEC', 'POPA', 'JZ']
+['DEC', 'DEC', 'DEC', 'DEC']
+['ADD', 'DEC', 'ADD', 'ADD']
+['IMUL', 'JZ', 'PUSH', 'IMUL']
+['JB', 'OUTS', 'JO', 'ADD']
+['ADD', 'IMUL', 'OUTS', 'ADD']
+['ADD', 'ADD', 'PUSH', 'JZ']
+['CALL', 'PUSH', 'LEA', 'PUSH']
+['IMUL', 'JZ', 'IMUL', 'POP']
+['POPA', 'ADD', 'ADD', 'POPA']
+['INC', 'CALL', 'XOR', 'CALL']
+['ADD', 'OUT', 'OUT', 'RETF']
+['JMP', 'TEST', 'JZ', 'LEA']
+['XOR', 'ADD', 'POP', 'ADD']
+['POPA', 'ARPL', 'ADD', 'POP']
+['IMUL', 'POP', 'PUSH', 'INC']
+['JB', 'ADD', 'XOR', 'ADD']
+['PCMPGTD', 'INC', 'ADD', 'INC']
+['ADD', 'ADD', 'DB', 'OR']
+['ADD', 'CALL', 'ADD', 'DB']
+['POPA', 'INC', 'PUSH', 'ADD']
+['JAE', 'INS', 'ADD', 'JBE']
+['ADD', 'DEC', 'ADD', 'PUSH']
+['ADD', 'XCHG', 'XOR', 'ADD']
+['XOR', 'XOR', 'CDQ', 'ADD']
+['INT', 'CDQ', 'ADD', 'CDQ']
+['ADC', 'OR', 'DEC', 'OR']
+['JNS', 'JZ', 'INS', 'INC']
+['JZ', 'INC', 'OUTS', 'JO']
+['ADD', 'PUSH', 'PCMPGTD', 'FIADD']
+['FNCLEX', 'CMP', 'JGE', 'PUSH']
+['JZ', 'DEC', 'IMUL', 'POP']
+['DEC', 'JNS', 'JS', 'ADD']
+['ADD', 'POP', 'XOR', 'ADD']
+['CALL', 'ADD', 'ADD', 'ADD']
+['CDQ', 'ADD', 'INT', 'INT']
+['ARPL', 'OUTS', 'INC', 'POPA']
+['LEA', 'CALL', 'PUSH', 'CALL']
+['ADD', 'INC', 'CALL', 'XOR']
+['POPA', 'JZ', 'ADD', 'ADD']
+['PCMPGTD', 'ADD', 'INS', 'OR']
+['ADD', 'INC', 'ADD', 'INT']
+['ADD', 'JMP', 'CLC', 'CLC']
+['ADD', 'PUSH', 'IMUL', 'IMUL']
+['ADD', 'DEC', 'ADD', 'INC']
+['ADD', 'XOR', 'XOR', 'ADD']
+['JB', 'INS', 'AND', 'OUTS']
+['RETF', 'RETF', 'ADD', 'XLAT']
+['AND', 'PUSH', 'MOV', 'MOV']
+['PUSH', 'PUSH', 'CALL', 'LEA']
+['XCHG', 'XCHG', 'XCHG', 'INS']
+['XOR', 'INT', 'CDQ', 'ADD']
+['ADD', 'XCHG', 'ADD', 'XCHG']
+['IMUL', 'SBB', 'IN', 'INS']
+['XCHG', 'INS', 'INS', 'INS']
+['ADD', 'TEST', 'INC', 'ADD']
+['ADD', 'INC', 'DEC', 'DEC']
+['POP', 'ADC', 'POP', 'ADC']
+['INC', 'ADD', 'INC', 'INC']
+['STOSB', 'ADD', 'XCHG', 'OR']
+['POP', 'ADC', 'ADC', 'INS']
+['POP', 'ADD', 'IMUL', 'POPA']
+['SBB', 'SBB', 'IN', 'XCHG']
+['ADD', 'JB', 'POP', 'ADD']
+['CMP', 'ARPL', 'JBE', 'JAE']
+['ADD', 'OR', 'JZ', 'JMP']
+['POP', 'ADD', 'JNZ', 'JB']
+['PUSH', 'MOV', 'MOV', 'CALL']
+['INT', 'JMP', 'INT', 'INT']
+['CDQ', 'INT', 'ADD', 'INT']
+['IMUL', 'XOR', 'ADD', 'POP']
+['MOV', 'MOV', 'POP', 'RET']
+['ADC', 'INC', 'ADC', 'DEC']
+['POP', 'MOV', 'INT', 'MOV']
+['MOV', 'MOV', 'ARPL', 'SUB']
+['ADD', 'MOV', 'ADD', 'ADD']
+['ROL', 'ADD', 'POP', 'MOV']
+['ADD', 'XOR', 'ADD', 'SALC']
+['ADD', 'RETF', 'DEC', 'ADD']
+['DEC', 'JS', 'ADD', 'ADD']
+['JZ', 'PUSH', 'OUTS', 'PUSH']
+['ADD', 'POP', 'ADD', 'JA']
+['ADD', 'ADD', 'INT', 'INT']
+['MOV', 'MOV', 'DEC', 'MOV']
+['PUSH', 'JZ', 'JNS', 'JZ']
+['INC', 'DB', 'CMP', 'ADD']
+['SUB', 'PCMPGTD', 'DEC', 'ADD']
+['ADD', 'XCHG', 'ADD', 'POP']
+['ADD', 'SALC', 'XOR', 'ADD']
+['IMUL', 'JAE', 'ADD', 'AND']
+['ADD', 'XCHG', 'CMC', 'CMC']
+['XOR', 'CALL', 'ADD', 'ADD']
+['IMUL', 'IN', 'INS', 'INS']
+['JB', 'DEC', 'OUTS', 'JB']
+['XCHG', 'XCHG', 'ADD', 'RETF']
+['INC', 'INC', 'INC', 'ADD']
+['INS', 'INS', 'INS', 'INS']
+['PUSH', 'PCMPGTD', 'ADD', 'POP']
+['ADD', 'XCHG', 'INC', 'OUTS']
+['PUSH', 'MOV', 'PUSH', 'INC']
+['DEC', 'POPA', 'JZ', 'OUTS']
+['AND', 'ADD', 'INC', 'ADD']
+['CALL', 'PUSH', 'CALL', 'MOV']
+['OR', 'AAM', 'ADC', 'OR']
+['INT', 'ADD', 'ADD', 'ADD']
+['ADD', 'ADD', 'OUTS', 'ADD']
+['JB', 'JAE', 'INS', 'JZ']
+['POP', 'RET', 'NOP', 'NOP']
+['ADD', 'CDQ', 'INC', 'ADD']
+['AND', 'JMP', 'JMP', 'JMP']
+['OR', 'ADD', 'OR', 'ADD']
+['POP', 'SBB', 'XCHG', 'INS']
+['LEA', 'CALL', 'RET', 'MOV']
+['PUSH', 'JMP', 'LEA', 'LEA']
+['RET', 'NOP', 'NOP', 'NOP']
+['POP', 'DEC', 'IMUL', 'JZ']
+['POPA', 'INC', 'JB', 'DEC']
+['DEC', 'OR', 'PUSH', 'OR']
+['POPA', 'OUTS', 'INS', 'JB']
+['ADD', 'OUTS', 'ADD', 'JB']
+['DB', 'DEC', 'ADD', 'ADD']
+['ADC', 'INS', 'XCHG', 'ADC']
+['FSUB', 'INC', 'ADD', 'INC']
+['INC', 'ADD', 'OUTS', 'ADD']
+['ADD', 'OUTS', 'ADD', 'JZ']
+['DEC', 'ADD', 'INC', 'ADD']
+['PUSH', 'ADD', 'JMP', 'DB']
+['ADD', 'SUB', 'ADD', 'ADD']
+['OUTS', 'JZ', 'JB', 'POPA']
+['IMUL', 'OUTS', 'ADD', 'INS']
+['SUB', 'JMP', 'SUB', 'JMP']
+['MOV', 'POP', 'POP', 'POP']
+['DB', 'INC', 'JMP', 'ADD']
+['CDQ', 'ADD', 'ADD', 'ADD']
+['DEC', 'IMUL', 'JZ', 'PUSH']
+['AND', 'ADD', 'XOR', 'ADD']
+['ADD', 'XOR', 'CDQ', 'ADD']
+['ADD', 'ADD', 'DEC', 'JZ']
+['POPA', 'JZ', 'POP', 'POP']
+['INC', 'DEC', 'PUSH', 'POP']
+['JNZ', 'JB', 'DEC', 'OUTS']
+['ADD', 'ADC', 'INC', 'ADD']
+['ADD', 'IMUL', 'JB', 'JBE']
+['ADD', 'IMUL', 'ADD', 'ADD']
+['INC', 'PUSH', 'DEC', 'XOR']
+['XOR', 'XOR', 'ADD', 'DEC']
+['ADD', 'ADD', 'SUB', 'ADD']
+['CALL', 'TEST', 'FNCLEX', 'JGE']
+['ADD', 'INC', 'JMP', 'DB']
+['POP', 'ADD', 'POP', 'ADD']
+['ADD', 'POP', 'ADD', 'XCHG']
+['MOV', 'MOV', 'MOV', 'XOR']
+['SLDT', 'ADD', 'ADD', 'ADD']
+['ADD', 'CDQ', 'XOR', 'ADD']
+['DEC', 'JO', 'OUTS', 'DEC']
+['JB', 'POPA', 'JZ', 'DEC']
+['ADD', 'PUSH', 'PUSH', 'PUSH']
+['JZ', 'ADD', 'POP', 'POP']
+['ADD', 'AND', 'OR', 'ADD']
+['NOP', 'ADD', 'STOSD', 'OR']
+['INC', 'DEC', 'DEC', 'PUSH']
+['CMP', 'PUSH', 'ADD', 'XOR']
+['PUSH', 'INC', 'ADD', 'INC']
+['POPA', 'DEC', 'JB', 'JAE']
+['XOR', 'ADD', 'ADD', 'DEC']
+['ADD', 'POP', 'ADD', 'ADD']
+['INC', 'INC', 'SBB', 'IN']
+['ADD', 'ADC', 'SUB', 'PCMPGTD']
+['ADD', 'XCHG', 'MOV', 'CMPSB']
+['XOR', 'ADD', 'DEC', 'XOR']
+['JNZ', 'JB', 'PUSH', 'POPA']
+['DEC', 'POP', 'INC', 'PUSH']
+['XOR', 'CDQ', 'CWD', 'ADD']
+['POP', 'INC', 'ADD', 'POP']
+['JECXZ', 'ADD', 'JMP', 'CLC']
+['CDQ', 'INT', 'XOR', 'INT']
+['INC', 'AND', 'DB', 'DB']
+['CALL', 'RET', 'MOV', 'MOV']
+['ADD', 'POP', 'ADD', 'AND']
+['ADD', 'JZ', 'INC', 'ADD']
+['BOUND', 'JZ', 'ADD', 'POP']
+['ADD', 'CDQ', 'INC', 'DEC']
+['XLAT', 'CLTS', 'IMUL', 'IN']
+['INT', 'ADD', 'INT', 'CDQ']
+['PUSH', 'CALL', 'LEA', 'LEA']
+['MOV', 'MOV', 'XOR', 'MOV']
+['TEST', 'ADD', 'XOR', 'ADD']
+['INC', 'ADD', 'OUT', 'OUT']
+['ADD', 'ADD', 'ADD', 'SBB']
+['MOVUPS', 'MOVUPS', 'MOVUPS', 'MOVUPS']
+['DEC', 'DEC', 'PUSH', 'XOR']
+['LODSB', 'ADD', 'ADD', 'ADD']
+['CALL', 'MOV', 'LEA', 'CALL']
+['ADC', 'OR', 'ADC', 'PUSH']
+['POPA', 'JB', 'DEC', 'OUTS']
+['OR', 'JNZ', 'ADD', 'POP']
+['SBB', 'SBB', 'SBB', 'XCHG']
+['OR', 'POP', 'OR', 'OR']
+['PUSH', 'POPA', 'INS', 'JNZ']
+['ADD', 'JLE', 'ADD', 'XCHG']
+['POP', 'JS', 'ADD', 'OR']
+['XCHG', 'IMUL', 'IN', 'INS']
+['INT', 'PUSH', 'MOV', 'SUB']
+['ADD', 'ADD', 'JB', 'ADD']
+['INS', 'ADD', 'JZ', 'IMUL']
+['ADD', 'SBB', 'SBB', 'XCHG']
+['OR', 'ADD', 'NOP', 'ADD']
+['POP', 'POP', 'MOV', 'MOV']
+['ADD', 'AND', 'ADC', 'ADD']
+['ADC', 'ADC', 'IN', 'ADC']
+['XOR', 'CDQ', 'ADD', 'CWD']
+['AAD', 'INC', 'ADD', 'POP']
+['ADC', 'OR', 'XOR', 'ADC']
+['ADD', 'ADD', 'INC', 'DB']
+['JBE', 'POPA', 'INC', 'JS']
+['ADD', 'PUSH', 'XOR', 'ADD']
+['POP', 'POP', 'SBB', 'SBB']
+['PUSH', 'ADD', 'INS', 'INS']
+['LOOPNZ', 'ADD', 'LOOPNZ', 'ADD']
+['POPA', 'ADD', 'POPA', 'ADD']
+['CALL', 'ADD', 'PUSH', 'JMP']
+['LEA', 'CALL', 'MOV', 'MOV']
+['ADD', 'ROL', 'POP', 'MOV']
+['ADD', 'FSTP', 'ADD', 'JECXZ']
+['PUSH', 'CDQ', 'ADD', 'XOR']
+['ADD', 'ADD', 'DB', 'XOR']
+['CALL', 'CALL', 'PUSH', 'JMP']
+['PUSH', 'CALL', 'LEA', 'CALL']
+['XOR', 'ADD', 'AND', 'ADD']
+['INC', 'PUSH', 'PCMPGTD', 'PCMPGTD']
+['FSTP', 'ADD', 'JECXZ', 'ADD']
+['TEST', 'JZ', 'LEA', 'CALL']
+['CALL', 'MOV', 'ADD', 'ADD']
+['ADC', 'OR', 'INC', 'OR']
+['ADD', 'PUSH', 'JMP', 'LEA']
+['MOV', 'PUSH', 'CALL', 'MOV']
+['POP', 'POP', 'POP', 'MOV']
+['ADD', 'LOCK', 'ADD', 'ADD']
+['ADD', 'DEC', 'ADD', 'POP']
+['JA', 'XCHG', 'XCHG', 'ADD']
+['ADD', 'PUSH', 'IMUL', 'XOR']
+['ADD', 'ADD', 'IMUL', 'ADD']
+['OR', 'LES', 'ADC', 'OR']
+['ADD', 'POPA', 'ADD', 'AND']
+['PUSH', 'PCMPGTD', 'MOVSB', 'PCMPGTD']
+['LEA', 'MOV', 'PUSH', 'PUSH']
+['ADD', 'XOR', 'ADD', 'CDQ']
+['MOV', 'XOR', 'PUSH', 'MOV']
+['INC', 'OR', 'ADD', 'OR']
+['AAM', 'ADC', 'OR', 'IN']
+['INC', 'INC', 'INC', 'INC']
+['ADD', 'ADD', 'INT', 'INC']
+['ADD', 'JS', 'ADD', 'ADD']
+['OR', 'OR', 'OR', 'OR']
+['ADD', 'DEC', 'JO', 'OUTS']
+['INC', 'XCHG', 'INS', 'INS']
+['ADD', 'ADD', 'POP', 'POPA']
+['DEC', 'DEC', 'POP', 'PUSH']
+['ADD', 'CDQ', 'XOR', 'CDQ']
+['CALL', 'MOV', 'PUSH', 'PUSH']
+['XOR', 'ADD', 'CDQ', 'ADD']
+['CLC', 'CLC', 'ADD', 'STI']
+['MOV', 'XCHG', 'ADC', 'PUSHF']
+['JO', 'ADD', 'JBE', 'POPA']
+['ADD', 'ADD', 'ADD', 'AND']
+['ADD', 'OUT', 'RETF', 'FNSTCW']
+['INC', 'INC', 'ADD', 'XOR']
+['PUSH', 'INC', 'PUSH', 'DEC']
+['INC', 'DEC', 'JS', 'ADD']
+['DEC', 'OUTS', 'INC', 'JB']
+['ADD', 'LOOPNZ', 'ADD', 'LOOPNZ']
+['ADD', 'ADD', 'ADD', 'CWD']
+['ADD', 'JG', 'ADD', 'XCHG']
+['SBB', 'XCHG', 'INS', 'SLDT']
+['MOV', 'JZ', 'SUB', 'JNZ']
+['INC', 'ADD', 'ADD', 'SUB']
+['ADD', 'XOR', 'XOR', 'CDQ']
+['ADD', 'INC', 'DB', 'CMP']
+['SLDT', 'ADD', 'ADD', 'IN']
+['IMUL', 'POP', 'POPA', 'PUSH']
+['CALL', 'MOV', 'ADD', 'PUSH']
+['DEC', 'OUTS', 'INC', 'JAE']
+['BOUND', 'ADD', 'ADD', 'JBE']
+['ADD', 'INC', 'ADD', 'DB']
+['CMC', 'CMC', 'CMC', 'CMC']
+['IMUL', 'XOR', 'ADD', 'ADD']
+['INC', 'AND', 'ADD', 'ADD']
+['ADD', 'INC', 'ADD', 'INC']
+['INC', 'DB', 'INC', 'ADD']
+['MOV', 'MOV', 'MOV', 'DEC']
+['JMP', 'JMP', 'PUSH', 'CALL']
+['PUSH', 'POPA', 'JB', 'OUTS']
+['XOR', 'ADD', 'ADD', 'OUT']
+['PUSH', 'PUSH', 'CALL', 'MOV']
+['ADC', 'OR', 'AAM', 'ADC']
+['PUSH', 'ADD', 'ADC', 'ADD']
+['SBB', 'INS', 'INS', 'ADD']
+['ADC', 'POP', 'ADC', 'POP']
+['OUTS', 'JO', 'ADD', 'ADD']
+['DB', 'JMP', 'AND', 'MOVSD']
+['CALL', 'MOV', 'LEA', 'PUSH']
+['OUT', 'OUT', 'RETF', 'FNSTCW']
+['MOV', 'MOV', 'MOV', 'PUSH']
+['NOP', 'NOP', 'NOP', 'NOP']
+['ADC', 'OR', 'TEST', 'MOV']
+['PUSH', 'INC', 'INC', 'ADD']
+['PUSH', 'JMP', 'LEA', 'CALL']
+['JB', 'ADD', 'ADD', 'INC']
+['SBB', 'ADC', 'MOVUPS', 'IN']
+['INC', 'ADD', 'DEC', 'ADD']
+['JS', 'ADD', 'AND', 'ADD']
+['SBB', 'XCHG', 'INS', 'INS']
+['ADD', 'INC', 'CDQ', 'ADD']
+['POP', 'POPA', 'PUSH', 'JO']
+['ADD', 'INC', 'AND', 'ADD']
+['ADD', 'CDQ', 'INC', 'INT']
+['POPA', 'PUSH', 'JAE', 'INS']
+['INT', 'CDQ', 'ADD', 'INT']
+['ADD', 'ADD', 'INC', 'OR']
+['DEC', 'PUSH', 'ADD', 'INS']
+['ADD', 'JAE', 'POP', 'ADD']
+['ADD', 'POPA', 'ADD', 'JNS']
+['ADD', 'INC', 'XOR', 'XOR']
+['OUTS', 'IMUL', 'ADD', 'JBE']
+['NOP', 'ADD', 'ADD', 'ADD']
+['MOV', 'INT', 'MOV', 'PUSH']
+['MOV', 'ADD', 'ADD', 'ADD']
+['MOV', 'MOVS', 'MOV', 'MOV']
+['MOV', 'ADD', 'PUSH', 'CALL']
+['LEA', 'CALL', 'CALL', 'WAIT']
+['POPA', 'JB', 'OUTS', 'JBE']
+['CALL', 'LEA', 'CALL', 'RET']
+['ADD', 'ADD', 'ROL', 'RCR']
+['JB', 'XOR', 'ADD', 'ADD']
+['PUSH', 'CALL', 'CALL', 'PUSH']
+['ADD', 'ADD', 'JZ', 'PUSH']
+['INC', 'ADD', 'ADD', 'XOR']
+['ADD', 'ADD', 'ADD', 'PUSH']
+['ADD', 'STOSD', 'OR', 'PUSH']
+['INC', 'JAE', 'JB', 'ADD']
+['TEST', 'FNCLEX', 'JGE', 'PUSH']
+['PUSH', 'ADD', 'ADD', 'JB']
+['ADD', 'DEC', 'ADD', 'INS']
+['ADC', 'SUB', 'ADC', 'ADC']
+['ADD', 'OR', 'ADD', 'ADD']
+['PUSH', 'INC', 'ADD', 'POP']
+['SAHF', 'SAHF', 'SAHF', 'SAHF']
+['SALC', 'XOR', 'ADD', 'XOR']
+['RET', 'MOV', 'MOV', 'PUSH']
+['POPA', 'ADD', 'IMUL', 'INS']
+['IN', 'XOR', 'ADD', 'PUSH']
+['ADC', 'MOV', 'SAHF', 'ADD']
+['POPA', 'JAE', 'ADD', 'ADD']
+['ADC', 'OR', 'AND', 'ADC']
+['PUSH', 'PUSH', 'CALL', 'ADD']
+['ADD', 'ROL', 'RCR', 'ADD']
+['OUTS', 'ADD', 'JZ', 'POP']
+['POP', 'AND', 'ADD', 'ADD']
+['IMUL', 'POP', 'INC', 'DEC']
+['POPA', 'ADD', 'JNS', 'DEC']
+['JBE', 'IMUL', 'JAE', 'ADD']
+['DIV', 'SBB', 'POP', 'IN']
+['IN', 'ADC', 'ADC', 'HLT']
+['ADC', 'ADC', 'TEST', 'MOV']
+['XOR', 'XOR', 'XOR', 'CDQ']
+['ADD', 'ADD', 'ADD', 'AAS']
+['IN', 'ADD', 'ADD', 'ADD']
+['JZ', 'POP', 'POP', 'JBE']
+['DEC', 'POP', 'NOP', 'ADD']
+['SAHF', 'ADD', 'RETF', 'DEC']
+['ADD', 'INC', 'INS', 'JZ']
+['JG', 'ADD', 'AAS', 'ADD']
+['MOV', 'MOV', 'PUSH', 'LEA']
+['DB', 'PUSH', 'ADD', 'JMP']
+['ADD', 'ADD', 'DEC', 'LODSD']
+['XOR', 'ADD', 'DB', 'DEC']
+['DB', 'DB', 'INC', 'JMP']
+['POP', 'POP', 'JBE', 'POPA']
+['ADC', 'ADD', 'ADC', 'POP']
+['JNZ', 'INC', 'JS', 'ADD']
+['PUSH', 'PCMPGTD', 'PCMPGTD', 'INC']
+['POP', 'ADD', 'AND', 'ADD']
+['CMC', 'POP', 'IN', 'INS']
+['ADD', 'ADD', 'AND', 'NOP']
+['INC', 'INT', 'ADD', 'INT']
+['XOR', 'ADD', 'XOR', 'PUSH']
+['ADD', 'POP', 'OR', 'ADC']
+['ADD', 'ADD', 'POP', 'POP']
+['JNZ', 'ADD', 'ADD', 'DEC']
+['MOV', 'AND', 'MOV', 'AND']
+['ADD', 'AND', 'ADD', 'POP']
+['ADD', 'JBE', 'POPA', 'DEC']
+['XCHG', 'XOR', 'ADD', 'ADD']
+['ADD', 'AAS', 'INC', 'ADD']
+['JZ', 'JB', 'POPA', 'ARPL']
+['ADD', 'INT', 'CDQ', 'XOR']
+['SBB', 'MOV', 'IMUL', 'IN']
+['POPA', 'PUSH', 'IMUL', 'XOR']
+['JNZ', 'PCMPGTD', 'ADD', 'INC']
+['ADD', 'ADD', 'PUSH', 'JNZ']
+['PUSH', 'PUSH', 'PUSH', 'PUSH']
+['JS', 'ADD', 'ADD', 'POP']
+['JS', 'ADD', 'OR', 'ADD']
+['DB', 'CMP', 'SBB', 'ADD']
+['MOV', 'MOV', 'PUSH', 'PUSH']
+['POPA', 'DEC', 'XOR', 'POPA']
+['MOV', 'PUSH', 'MOV', 'CALL']
+['ADD', 'ADD', 'AND', 'ADD']
+['PUSH', 'INC', 'XCHG', 'ADD']
+['ADD', 'CMP', 'PUSH', 'ADD']
+['DEC', 'PUSH', 'INC', 'DEC']
+['ADC', 'PUSH', 'PUSH', 'PUSH']
+['INC', 'JB', 'PUSH', 'POPA']
+['OR', 'STOSB', 'ADD', 'XCHG']
+['ADD', 'ADD', 'JNZ', 'ADD']
+['ADD', 'INC', 'ADD', 'JBE']
+['XCHG', 'SBB', 'ADD', 'POP']
+['JS', 'JO', 'DEC', 'POPA']
+['ADD', 'XCHG', 'POP', 'ADD']
+['DB', 'DB', 'INC', 'ADD']
+['ADD', 'XCHG', 'XCHG', 'XCHG']
+['ADD', 'ADD', 'AAD', 'INC']
+['MOV', 'CALL', 'MOV', 'LEA']
+['JBE', 'POPA', 'DEC', 'JA']
+['ADD', 'ADD', 'INS', 'INS']
+['XOR', 'ADD', 'INC', 'ADD']
+['PUSH', 'PUSH', 'PUSH', 'MOV']
+['INC', 'INC', 'DEC', 'DEC']
+['INC', 'INC', 'ADD', 'AND']
+['ADC', 'ADC', 'TEST', 'ADC']
+['INC', 'INC', 'PUSH', 'INC']
+['STOSB', 'ADD', 'XCHG', 'DEC']
+['INC', 'ADD', 'XOR', 'CALL']
+['LEA', 'LEA', 'CALL', 'LEA']
+['POP', 'IN', 'ADD', 'ADD']
+['OUTS', 'INS', 'JB', 'ADD']
+['OR', 'ADC', 'ADC', 'PUSH']
+['NOP', 'INC', 'INC', 'ADD']
+['PUSH', 'ADD', 'JB', 'JAE']
+['JAE', 'INS', 'JZ', 'PUSH']
+['POPA', 'PUSH', 'IMUL', 'ADD']
+['LEA', 'CALL', 'PUSH', 'PUSH']
+['DEC', 'OUTS', 'JZ', 'JB']
+['SAHF', 'SAHF', 'MOV', 'JL']
+['DEC', 'ARPL', 'ADD', 'ADD']
+['SLDT', 'ADD', 'ADD', 'POP']
+['OUTS', 'JB', 'POP', 'POP']
+['ADD', 'SBB', 'ADD', 'AND']
+['ARPL', 'PUSH', 'ADD', 'JB']
+['ADC', 'OR', 'HLT', 'OR']
+['POP', 'INC', 'INC', 'ADD']
+['JB', 'PUSH', 'POPA', 'INS']
+['INC', 'ADD', 'CMP', 'ADD']
+['PUSH', 'JZ', 'DEC', 'OUTS']
+['POP', 'IN', 'INS', 'ADD']
+['ADD', 'ADD', 'PUSH', 'ADD']
+['CALL', 'LEA', 'LEA', 'PUSH']
+['RET', 'MOV', 'MOV', 'POP']
+['LEA', 'PUSH', 'LEA', 'PUSH']
+['SBB', 'ADC', 'OR', 'SUB']
+['MOVUPS', 'MOVUPS', 'ADC', 'OR']
+['ADD', 'INS', 'ADD', 'POPA']
+['INS', 'XCHG', 'ADC', 'ADD']
+['JBE', 'ADD', 'ADD', 'POP']
+['IMUL', 'XOR', 'IMUL', 'DEC']
+['XOR', 'INT', 'ADD', 'INT']
+['ADD', 'PUSHA', 'XOR', 'INC']
+['ADD', 'XOR', 'INT', 'XOR']
+['MOV', 'CALL', 'MOV', 'PUSH']
+['ADD', 'ADD', 'OR', 'PUSH']
+['ADD', 'INT', 'INC', 'DB']
+['DEC', 'XOR', 'ADD', 'ADD']
+['ADD', 'SUB', 'XOR', 'INC']
+['ADC', 'OR', 'SUB', 'ADC']
+['JBE', 'POPA', 'PUSH', 'POPA']
+['XOR', 'ADD', 'OUT', 'RETF']
+['AAS', 'INC', 'ADD', 'ADD']
+['XOR', 'CDQ', 'ADD', 'CDQ']
+['XLAT', 'ADD', 'FSTP', 'ADD']
+['INS', 'SLDT', 'ADD', 'ADD']
+['JB', 'JB', 'ADD', 'JZ']
+['JBE', 'POPA', 'INC', 'JB']
+['POP', 'ADC', 'OR', 'OR']
+['OR', 'INS', 'OR', 'JZ']
+['LES', 'INT', 'OR', 'AAM']
+['DB', 'INC', 'ADD', 'CMP']
+['INC', 'ADD', 'ADC', 'MOV']
+['JB', 'IMUL', 'INC', 'ADD']
+['XCHG', 'SBB', 'SBB', 'MOV']
+['SBB', 'SBB', 'INS', 'SLDT']
+['CMC', 'CMC', 'SBB', 'MOV']
+['POP', 'PUSH', 'INC', 'DEC']
+['ADD', 'ADD', 'ADC', 'ADD']
+['PUSH', 'CALL', 'LEA', 'MOV']
+['ADD', 'ADD', 'JZ', 'INC']
+['JO', 'DEC', 'POPA', 'OUTS']
+['INT', 'ADD', 'ADD', 'CWD']
+['IMUL', 'POP', 'ADD', 'JNZ']
+['ADD', 'AND', 'NOP', 'INC']
+['DEC', 'ADD', 'INT', 'CDQ']
+['CLC', 'ADD', 'STI', 'INC']
+['POP', 'POP', 'POP', 'IN']
+['CALL', 'ADD', 'RET', 'LEA']
+['AND', 'DB', 'DB', 'DB']
+['FNSTCW', 'CLI', 'ADD', 'ADD']
+['CLD', 'PUSH', 'ADD', 'ADC']
+['OR', 'POP', 'DEC', 'ADD']
+['JZ', 'PUSH', 'IMUL', 'JZ']
+['LEA', 'XOR', 'PUSH', 'MOV']
+['XOR', 'ADD', 'PUSH', 'XOR']
+['INC', 'POPA', 'JZ', 'POP']
+['JB', 'DEC', 'BOUND', 'IMUL']
+['XOR', 'CDQ', 'ADD', 'ADD']
+['DEC', 'BOUND', 'IMUL', 'POP']
+['PCMPGTD', 'ADD', 'ROL', 'POP']
+['INS', 'OR', 'OR', 'POP']
+['JMP', 'DB', 'DB', 'INC']
+['CALL', 'TEST', 'JGE', 'PUSH']
+['SUB', 'PUSH', 'MOV', 'PUSH']
+['SBB', 'XCHG', 'ADD', 'XCHG']
+['INS', 'OR', 'JZ', 'ADC']
+['LODSB', 'OR', 'MOV', 'ADC']
+['CMP', 'INC', 'ADD', 'AND']
+['MOV', 'SUB', 'PUSH', 'PUSH']
+['OR', 'MOVSB', 'OR', 'LODSB']
+['JB', 'DEC', 'OUTS', 'JZ']
+['ADD', 'INC', 'ADD', 'LODSB']
+['XCHG', 'XCHG', 'IMUL', 'IN']
+['ADC', 'TEST', 'ADC', 'ADC']
+['XOR', 'ADD', 'POP', 'XOR']
+['XOR', 'DEC', 'ADD', 'INT']
+['ADD', 'XCHG', 'SBB', 'ADD']
+['ADD', 'ADD', 'CDQ', 'ADD']
+['SLDT', 'ADD', 'ADD', 'XCHG']
+['INS', 'ADD', 'ADD', 'POP']
+['OR', 'TEST', 'MOV', 'XCHG']
+['ADC', 'ADC', 'INS', 'XCHG']
+['INC', 'ADD', 'AND', 'JMP']
+['ADD', 'OUTS', 'ADD', 'INS']
+['RET', 'MOV', 'PUSH', 'MOV']
+['SAHF', 'SAHF', 'SAHF', 'MOV']
+['DB', 'DB', 'JMP', 'INC']
+['OR', 'XOR', 'ADC', 'OR']
+['ADD', 'JO', 'ADD', 'ADD']
+['ADC', 'OR', 'LES', 'INT']
+['INC', 'ADD', 'ADD', 'INC']
+['ADD', 'ADD', 'MOV', 'XOR']
+['ADD', 'JNS', 'DEC', 'ADD']
+['INC', 'ADD', 'INC', 'AND']
+['IN', 'INS', 'INS', 'INS']
+['AND', 'MOV', 'AND', 'PUSH']
+['XOR', 'INC', 'DEC', 'DEC']
+['CMP', 'INC', 'ADD', 'ADD']
+['JBE', 'POPA', 'PUSH', 'JZ']
+['PUSH', 'POPA', 'JB', 'POPA']
+['LEA', 'PUSH', 'CALL', 'MOV']
+['FISTP', 'SUB', 'MOV', 'MOVS']
+['PUSH', 'ADC', 'PUSH', 'ADC']
+['JL', 'CMP', 'ADD', 'MOV']
+['ADD', 'ADD', 'SBB', 'ADD']
+['ADD', 'POPA', 'ADD', 'IMUL']
+['POP', 'ADD', 'IMUL', 'OUTS']
+['DEC', 'ADD', 'ARPL', 'JB']
+['XOR', 'ADD', 'INT', 'CDQ']
+['ADD', 'POP', 'INS', 'INS']
+['OUTS', 'AND', 'AND', 'AND']
+['DEC', 'DEC', 'INC', 'ADD']
+['JB', 'ARPL', 'ADD', 'POP']
+['ADD', 'JB', 'POPA', 'ADD']
+['MOV', 'PUSH', 'POP', 'INC']
+['JS', 'JZ', 'JB', 'ARPL']
+['SBB', 'SBB', 'MOV', 'IMUL']
+['DEC', 'ADC', 'PUSH', 'ADC']
+['PUSH', 'LEA', 'MOV', 'PUSH']
+['ADD', 'CMPSB', 'PUSH', 'IMUL']
+['ADD', 'XOR', 'INC', 'CMP']
+['ADD', 'ADD', 'MOV', 'OR']
+['ADD', 'XOR', 'ADD', 'POP']
+['ADD', 'ADD', 'XCHG', 'MOV']
+['INT', 'INT', 'JMP', 'INT']
+['CWD', 'XOR', 'CWD', 'ADD']
+['CALL', 'FSTP', 'MOV', 'LEA']
+['ADD', 'INT', 'ADD', 'ADD']
+['ADD', 'ADD', 'PUSH', 'IMUL']
+['ADD', 'XOR', 'ADD', 'INC']
+['XOR', 'PUSH', 'CDQ', 'ADD']
+['ADD', 'ADD', 'INC', 'JB']
+['ADD', 'JNZ', 'INC', 'ADD']
+['DEC', 'DEC', 'DEC', 'POP']
+['ADD', 'CMP', 'ADD', 'FSUB']
+['PUSH', 'MOV', 'CALL', 'JMP']
+['PUSH', 'JZ', 'INC', 'OUTS']
+['ADC', 'OR', 'IN', 'ADC']
+['JNS', 'JS', 'ADD', 'AND']
+['ADD', 'XCHG', 'ADD', 'ADD']
+['ADD', 'ADD', 'INT', 'ADD']
+['ADD', 'AND', 'XCHG', 'INC']
+['ADD', 'ADD', 'INC', 'JNZ']
+['PUSH', 'XOR', 'ADD', 'ADD']
+['PUSH', 'INC', 'INC', 'INC']
+['ADD', 'INC', 'ADD', 'ADD']
+['AND', 'ADD', 'DEC', 'ADD']
+['ADC', 'OR', 'CMP', 'ADC']
+['INS', 'ADD', 'POPA', 'ADD']
+['INS', 'XCHG', 'INS', 'SLDT']
+['ADC', 'ADC', 'PUSH', 'PUSH']
+['BOUND', 'IMUL', 'POP', 'POPA']
+['JZ', 'AND', 'PUSH', 'ADD']
+['INC', 'INC', 'ADD', 'ADD']
+['PUSH', 'LEA', 'PUSH', 'PUSH']
+['ADD', 'POP', 'POP', 'SBB']
+['JMP', 'CLC', 'CLC', 'CLC']
+['MOV', 'PUSH', 'CALL', 'CMP']
+['CLTS', 'IMUL', 'IN', 'INS']
+['JMP', 'DB', 'CALL', 'ADD']
+['DB', 'INC', 'INC', 'ADD']
+['OR', 'ADC', 'OR', 'ADC']
+['ADD', 'JG', 'ADD', 'AAS']
+['INT', 'INC', 'ADD', 'ADD']
+['PUSH', 'OUTS', 'INC', 'OUTS']
+['XOR', 'INT', 'INT', 'ADD']
+['ADD', 'IMUL', 'INS', 'ADD']
+['XCHG', 'DB', 'DB', 'CLTS']
+['PUSH', 'PUSH', 'MOV', 'CALL']
+['ADC', 'ADC', 'SUB', 'ADC']
+['ADC', 'ADC', 'AAM', 'ADC']
+['ADC', 'ADD', 'MOV', 'ADD']
+['PUSH', 'CALL', 'MOV', 'MOV']
+['PUSHF', 'ADC', 'MOVSB', 'ADC']
+['ADD', 'POP', 'ADD', 'DEC']
+['OUT', 'ADD', 'OUT', 'ADD']
+['PUSH', 'OR', 'JNZ', 'ADD']
+['JAE', 'IMUL', 'ADD', 'XOR']
+['DEC']
+['DB', 'FISTP', 'SUB', 'MOV']
+['POPA', 'INC', 'PUSH', 'INC']
+['FIADD', 'INT', 'PUSH', 'PUSH']
+['ADD', 'INT', 'XOR', 'CDQ']
+['JZ', 'INC', 'ADD', 'ADD']
+['ADD', 'POP', 'PCMPGTD', 'PUSH']
+['ADD', 'PUSH', 'PCMPGTD', 'MOVSB']
+['MOV', 'CALL', 'ADD', 'PUSH']
+['JG', 'ADD', 'XCHG', 'ADD']
+['ADD', 'ADD', 'JB', 'JB']
+['ADD', 'ADD', 'IMUL', 'JB']
+['OR', 'RCL', 'MOV', 'LEA']
+['SBB', 'ADD', 'POP', 'ADD']
+['SBB', 'SBB', 'XCHG', 'XCHG']
+['INC', 'INT', 'INT', 'ADD']
+['ADC', 'MOVSB', 'ADC', 'LODSB']
+['XOR', 'POPA', 'JB', 'ADD']
+['MOV', 'LEA', 'CALL', 'MOV']
+['JB', 'PUSH', 'POPA', 'JB']
+['XOR', 'AND', 'PUSH', 'ADD']
+['SUB', 'ADD', 'CMP', 'ADD']
+['JZ', 'ADC', 'ADC', 'TEST']
+['INT', 'XOR', 'CDQ', 'ADD']
+['ADD', 'XCHG', 'INS', 'JMP']
+['ADD', 'ADD', 'INC', 'AND']
+['MOV', 'CALL', 'LEA', 'LEA']
+['ADD', 'AND', 'ADD', 'LODSB']
+['ADD', 'INS', 'OR', 'OR']
+['IMUL', 'DEC', 'JAE', 'OUTS']
+['ADD', 'POP', 'OR', 'RCL']
+['POPA', 'ADD', 'ADD', 'ADD']
+['ADD', 'ADC', 'ADD', 'MOV']
+['JBE', 'POPA', 'PUSH', 'JAE']
+['JAE', 'INS', 'ADD', 'JZ']
+['ADC', 'DEC', 'ADD', 'ADD']
+['ADD', 'XOR', 'PUSH', 'CDQ']
+['INC', 'OUTS', 'ADD', 'ADD']
+['DEC', 'PUSH', 'XOR', 'ADD']
+['PCMPGTD', 'PUSH', 'AND', 'ADD']
+['ADD', 'ADD', 'CMPSB', 'MOV']
+['ADD', 'ADD', 'XCHG', 'SBB']
+['MOV', 'CALL', 'TEST', 'FNCLEX']
+['OUTS', 'JO', 'ADD', 'JBE']
+['POPA', 'JZ', 'DEC', 'JNS']
+['CALL', 'LEA', 'CALL', 'LEA']
+['ARPL', 'ADD', 'ADD', 'POP']
+['AND', 'ADD', 'ADD', 'PUSH']
+['CDQ', 'ADD', 'CDQ', 'INT']
+['DEC', 'JB', 'JAE', 'INS']
+['XOR', 'ADD', 'JLE', 'ADD']
+['ADD', 'JB', 'JB', 'ADD']
+['OUTS', 'INC', 'OUTS', 'JAE']
+['OR', 'ADC', 'ADC', 'SBB']
+['POP', 'INC', 'ADD', 'CLC']
+['ADD', 'INS', 'ADD', 'DEC']
+['ADD', 'POP', 'POP', 'POP']
+['IMUL', 'JBE', 'POPA', 'PUSH']
+['RET', 'LEA', 'CALL', 'RET']
+['POP', 'XOR', 'ADD', 'JLE']
+['ADD', 'JECXZ', 'ADD', 'JMP']
+['OUTS', 'INC', 'JAE', 'JB']
+['ADD', 'ADD', 'ADD', 'XADD']
+['PUSH', 'MOV', 'CALL', 'CMP']
+['POP', 'ADD', 'SBB', 'SBB']
+['JB', 'OUTS', 'JBE', 'ADD']
+['ADC', 'POP', 'ADC', 'ADC']
+['POP', 'INC', 'PUSH', 'ADD']
+['POP', 'MOV', 'MOV', 'MOV']
+['ADD', 'XOR', 'ADD', 'ADD']
+['LOCK', 'ADD', 'ADD', 'ADD']
+['CALL', 'MOV', 'PUSH', 'CALL']
+['DEC', 'XOR', 'DEC', 'ADD']
+['INC', 'DEC', 'JAE', 'JB']
+['AND', 'ADD', 'AND', 'ADD']
+['INT', 'MOV', 'PUSH', 'PUSH']
+['INS', 'JZ', 'PUSH', 'POPA']
+['OR', 'ADD', 'MOV', 'ADD']
+['AND', 'ADD', 'SBB', 'INC']
+['INC', 'JB', 'POPA', 'JZ']
+['NOP', 'NOP', 'NOP', 'PUSH']
+['POPA', 'OUTS', 'ADD', 'ADD']
+['IMUL', 'POP', 'POP', 'JBE']
+['PUSH', 'MOV', 'MOV', 'PUSH']
+['LODSD', 'XOR', 'OR', 'STOSB']
+['JB', 'IMUL', 'POP', 'POP']
+['PUSH', 'CALL', 'ADD', 'RET']
+['ADD', 'XOR', 'ADD', 'PUSH']
+['OUT', 'RETF', 'FNSTCW', 'CLI']
+['IMUL', 'PUSH', 'ADD', 'JO']
+['ADD', 'INC', 'XOR', 'ADD']
+['JB', 'ADD', 'ADD', 'CMP']
+['INC', 'POPA', 'INS', 'INS']
+['ADD', 'POP', 'ADD', 'SBB']
+['DEC', 'DEC', 'ADD', 'ADD']
+['MOV', 'OR', 'JZ', 'JMP']
+['INS', 'JMP', 'ADC', 'ADC']
+['DB', 'DB', 'CLTS', 'IMUL']
+['OR', 'OR', 'ADC', 'ADC']
+['LEA', 'CALL', 'RET', 'RET']
+['RETF', 'FNSTCW', 'CLI', 'ADD']
+['ADD', 'OR', 'JNZ', 'PCMPGTD']
+['PUSH', 'MOV', 'CALL', 'LEA']
+['IMUL', 'OUTS', 'ADD', 'OUTS']
+['INC', 'ADD', 'LODSB', 'ADD']
+['INT', 'ADC', 'AAM', 'ADC']
+['JZ', 'DEC', 'JNS', 'ADD']
+['ADD', 'ADC', 'POP', 'INC']
+['ADD', 'PUSH', 'ADD', 'DEC']
+['ADD', 'CDQ', 'ADD', 'XOR']
+['PUSH', 'JZ', 'DEC', 'IMUL']
+['ADD', 'JZ', 'POP', 'ADD']
+['MOV', 'MOV', 'LEA', 'MOV']
+['ADD', 'INC', 'DB', 'JMP']
+['PUSH', 'OR', 'POP', 'OR']
+['IMUL', 'ADD', 'ADD', 'XOR']
+['ADD', 'PUSH', 'ADD', 'POPA']
+['NOP', 'ADD', 'ADC', 'SUB']
+['DEC', 'INC', 'ADD', 'PUSH']
+['INC', 'ADD', 'ADD', 'AND']
+['INT', 'INT', 'ADD', 'INC']
+['CALL', 'MOV', 'MOV', 'MOV']
+['POPA', 'INC', 'JS', 'JO']
+['CALL', 'ADD', 'DB', 'INC']
+['INT', 'XOR', 'INT', 'ADD']
+['ADD', 'ADD', 'ADD', 'MOV']
+['XOR', 'ADD', 'XOR', 'INT']
+['ADD', 'XOR', 'CALL', 'ADD']
+['ADD', 'ARPL', 'JB', 'OUTS']
+['DEC', 'BOUND', 'JZ', 'ADD']
+['ADD', 'JAE', 'INS', 'ADD']
+['INC', 'ADD', 'CLC', 'XOR']
+['ADD', 'ADD', 'CMP', 'ADD']
+['INC', 'OUTS', 'JO', 'ADD']
+['PUSH', 'PUSH', 'PUSH', 'ADD']
+['SUB', 'SUB', 'PUSH', 'PUSH']
+['JAE', 'ADD', 'TEST', 'INC']
+['CWD', 'ADD', 'XOR', 'ADD']
+['XOR', 'IMUL', 'JBE', 'POPA']
+['INT', 'ADD', 'CDQ', 'ADD']
+['OR', 'ADC', 'OR', 'SBB']
+['ADD', 'XLAT', 'XLAT', 'ADD']
+['IMUL', 'ADD', 'XOR', 'ADD']
+['INC', 'MOVSB', 'MOV', 'ADD']
+['ADD', 'INC', 'ADD', 'XOR']
+['ADD', 'CWD', 'XOR', 'CWD']
+['POP', 'ADD', 'JNZ', 'OUTS']
+['MOVSB', 'ADC', 'LODSB', 'ADC']
+['ADC', 'ADC', 'INS', 'ADC']
+['TEST', 'MOV', 'XCHG', 'ADC']
+['OUTS', 'ADD', 'JZ', 'AND']
+['ADD', 'ROL', 'ADD', 'POP']
+['JMP', 'JMP', 'JMP', 'JMP']
+['AND', 'SUB', 'SUB', 'PUSH']
+['POPA', 'PUSH', 'JZ', 'DEC']
+['CLC', 'CLC', 'CLC', 'ADD']
+['ADD', 'ADD', 'INS', 'ADD']
+['JZ', 'INC', 'POPA', 'JZ']
+['DEC', 'ADD', 'PUSH', 'ADD']
+['INC', 'INC', 'DB', 'INC']
+['POP', 'PUSH', 'JNZ', 'JB']
+['PUSH', 'BOUND', 'ADD', 'ADD']
+['INT', 'ADD', 'CDQ', 'INT']
+['ADC', 'ADD', 'SUB', 'ADD']
+['ADD', 'PUSH', 'JO', 'JZ']
+['DB', 'OR', 'ADD', 'ADD']
+['ADD', 'ADC', 'MOV', 'ADD']
+['MOVSB', 'PCMPGTD', 'ADD', 'ROL']
+['PUSH', 'ADD', 'CALL', 'ADD']
+['CMP', 'ADC', 'ADC', 'DEC']
+['INS', 'INS', 'ADD', 'ADD']
+['XCHG', 'INC', 'INC', 'ADD']
+['CALL', 'MOV', 'MOV', 'PUSH']
+['JO', 'ADD', 'ADD', 'POP']
+['PUSH', 'IMUL', 'PUSH', 'INC']
+['RCR', 'ADD', 'RETF', 'ADD']
+['POP', 'JBE', 'POPA', 'PUSH']
+['JGE', 'PUSH', 'PUSH', 'PUSH']
+['INS', 'MOV', 'PCMPGTD', 'ADC']
+['OR', 'LES', 'INT', 'OR']
+['OR', 'JZ', 'JMP', 'PUSH']
+['CMP', 'ADD', 'ADD', 'ADD']
+['ADD', 'OUT', 'ADD', 'ADD']
+['MOVSB', 'MOV', 'ADD', 'ADD']
+['JAE', 'ADD', 'AND', 'ADD']
+['SBB', 'POP', 'IN', 'INS']
+['INS', 'INS', 'JNZ', 'ADD']
+['FSTP', 'MOV', 'LEA', 'LEA']
+['ADD', 'RET', 'RET', 'MOV']
+['OR', 'OR', 'INS', 'OR']
+['XOR', 'XOR', 'ADD', 'INT']
+['PUSH', 'CALL', 'ADD', 'ADD']
+['INS', 'INC', 'JB', 'OUTS']
+['CALL', 'CMP', 'FNCLEX', 'JGE']
+['INC', 'ADD', 'PUSH', 'ADD']
+['JMP', 'PUSH', 'MOV', 'CALL']
+['CALL', 'RET', 'LEA', 'CALL']
+['CLI', 'ADD', 'ADD', 'ADD']
+['SBB', 'ADD', 'AND', 'ADD']
+['ADD', 'ADD', 'ADD', 'CMP']
+['XOR', 'IMUL', 'DEC', 'JAE']
+['ADD', 'AND', 'ADD', 'DEC']
+['ADC', 'SBB', 'ADC', 'ADC']
+['JB', 'JB', 'ADD', 'ADD']
+['ADD', 'LODSD', 'XOR', 'OR']
+['INC', 'DB', 'JMP', 'AND']
+['OUTS', 'ADD', 'INS', 'ADD']
+['PUSH', 'LEA', 'PUSH', 'CALL']
+['ROL', 'RCR', 'ADD', 'RETF']
+['SBB', 'INC', 'ADD', 'ADD']
+['DEC', 'DEC', 'PUSH', 'ADD']
+['INS', 'ADD', 'ADD', 'ADD']
+['PUSH', 'JAE', 'INS', 'ADD']
+['ADD', 'ADC', 'ADD', 'SUB']
+['STI', 'INC', 'MOVSB', 'MOV']
+['DEC', 'ADD', 'DEC', 'ADD']
+['JO', 'ADD', 'ADD', 'INS']
+['ADD', 'DB', 'DB', 'JMP']
+['POPA', 'PUSH', 'JO', 'INS']
+['JZ', 'IMUL', 'ADD', 'ADD']
+['ADD', 'CALL', 'MOV', 'ADD']
+['ADD', 'POP', 'AND', 'ADD']
+['POP', 'MOV', 'POP', 'RET']
+['ADD', 'OUTS', 'ADD', 'ADD']
+['MOV', 'CMPSB', 'XLAT', 'CLTS']
+['LES', 'ADC', 'ADC', 'AAM']
+['CDQ', 'INC', 'INT', 'INT']
+['ROL', 'POP', 'MOV', 'STD']
+['PCMPGTD', 'DEC', 'ADD', 'INC']
+['ADD', 'ADD', 'ADD', 'OUTS']
+['DEC', 'XOR', 'INC', 'DEC']
+['ADD', 'IN', 'INT', 'ADD']
+['XCHG', 'MOV', 'CMPSB', 'XLAT']
+['JB', 'POPA', 'JB', 'DEC']
+['JBE', 'POPA', 'INC', 'OUTS']
+['XOR', 'CALL', 'CDQ', 'ADD']
+['INC', 'XCHG', 'ADD', 'ADD']
+['FNCLEX', 'JGE', 'PUSH', 'PUSH']
+['PUSH', 'PUSH', 'CALL', 'CMP']
+['ADD', 'ADD', 'OR', 'ADD']
+['INS', 'JB', 'ADD', 'ADD']
+['CLC', 'XOR', 'ADD', 'DB']
+['ADC', 'MOV', 'ADD', 'ADD']
+['STD', 'POP', 'PCMPGTD', 'ADD']
+['DEC', 'PUSH', 'ADD', 'ADD']
+['JS', 'JO', 'IMUL', 'POP']
+['OR', 'ADD', 'ADC', 'OR']
+['DEC', 'JNS', 'ADD', 'ADD']
+['DEC', 'JNS', 'AND', 'ADD']
+['PUSH', 'CALL', 'MOV', 'ADD']
+['MOV', 'PUSH', 'MOV', 'SUB']
+['JZ', 'OUTS', 'ADD', 'ADD']
+['ADD', 'PUSH', 'JNZ', 'DEC']
+['ADD', 'ADD', 'CLD', 'PUSH']
+['OUTS', 'JBE', 'ADD', 'ADD']
+['ADD', 'IN', 'XOR', 'ADD']
+['ADD', 'DB', 'INC', 'ADD']
+['ADD', 'ADD', 'CALL', 'ADD']
+['XOR', 'ADD', 'ADD', 'JB']
+['JB', 'POP', 'POP', 'JBE']
+['IMUL', 'INS', 'ADD', 'JB']
+['OUTS', 'ADD', 'ADD', 'ADD']
+['INS', 'ADC', 'JZ', 'ADC']
+['ADD', 'ADD', 'ADD', 'CMPSB']
+['PUSH', 'INC', 'JS', 'JO']
+['XCHG', 'ADD', 'ADD', 'IN']
+['MOV', 'INC', 'INC', 'ADD']
+['CALL', 'JMP', 'ADD', 'ADD']
+['JB', 'PUSH', 'JZ', 'DEC']
+['XOR', 'INC', 'INC', 'PUSH']
+['ADD', 'DEC', 'LODSD', 'XOR']
+['ADD', 'ADD', 'MOV', 'XCHG']
+['POP', 'ADD', 'ADD', 'INC']
+['JMP', 'ADD', 'INC', 'DB']
+['JAE', 'OUTS', 'ADD', 'ADD']
+['ADD', 'ADD', 'ADD', 'XOR']
+['ADD', 'POP', 'ADD', 'POP']
+['ADD', 'RETF', 'RETF', 'ADD']
+['ADD', 'POP', 'MOV', 'INT']
+['OUTS', 'DEC', 'JNS', 'JS']
+['ADD', 'MOV', 'PUSH', 'POP']
+['XOR', 'ADD', 'ADD', 'INT']
+['PUSH', 'INS', 'POPA', 'JAE']
+['ADD', 'JB', 'OUTS', 'ADD']
+['ADD', 'ADD', 'DEC', 'DEC']
+['SBB', 'SBB', 'SBB', 'ADC']
+['OUT', 'POPA', 'ADD', 'INC']
+['PUSH', 'IMUL', 'IMUL', 'POPA']
+['PUSH', 'PUSH', 'INC', 'PUSH']
+['ADD', 'INC', 'ADD', 'OUT']
+['INC', 'OUTS', 'JB', 'ADD']
+['JZ', 'ADC', 'OR', 'TEST']
+['AND', 'OR', 'ADD', 'ADD']
+['PUSH', 'ADD', 'XOR', 'ADD']
+['ADD', 'ADD', 'ROL', 'ADD']
+['CLTS', 'IMUL', 'SBB', 'IN']
+['DB', 'INC', 'XCHG', 'INS']
+['PUSH', 'ADD', 'POP', 'ADD']
+['OUTS', 'JZ', 'BOUND', 'JB']
+['INS', 'ADD', 'ADD', 'JBE']
+['INT', 'INT', 'INT', 'JMP']
+['ADD', 'AND', 'ADD', 'INC']
+['MOV', 'MOV', 'CALL', 'PUSH']
+['INS', 'JNZ', 'ADD', 'ADD']
+['CMC', 'CMC', 'SBB', 'PADDUSW']
+['IN', 'INS', 'INS', 'ADD']
+['ADD', 'INC', 'INC', 'INC']
+['ARPL', 'JBE', 'JAE', 'AND']
+['CALL', 'MOV', 'PUSH', 'MOV']
+['CMP', 'JGE', 'PUSH', 'PUSH']
+['MOV', 'LEA', 'MOV', 'MOV']
+['LEA', 'LEA', 'PUSH', 'PUSH']
+['ADD', 'ADD', 'JS', 'ADD']
+['INC', 'JMP', 'ADD', 'INC']
+['XCHG', 'XCHG', 'INS', 'SLDT']
+['MOV', 'IMUL', 'IN', 'INS']
+['XOR', 'ADD', 'ADD', 'DB']
+['XCHG', 'XCHG', 'IN', 'IN']
+['ADD', 'XCHG', 'DB', 'DB']
+['SUB', 'PUSH', 'PUSH', 'PUSH']
+['SLDT', 'ADD', 'ADD', 'INS']
+['CALL', 'PUSH', 'MOV', 'PUSH']
+['ADC', 'ADC', 'SBB', 'ADC']
+['ADD', 'ADD', 'ADD', 'INT']
+['PUSH', 'JNZ', 'JB', 'DEC']
+['ADD', 'AND', 'ADD', 'AND']
+['ADD', 'ARPL', 'OUT', 'RETF']
+['ADD', 'ADD', 'ADD', 'JG']
+['SBB', 'ADD', 'INC', 'ADD']
+['ADD', 'IN', 'IN', 'IN']
+['JNS', 'ADD', 'ADD', 'AND']
+['ADD', 'CDQ', 'CDQ', 'ADD']
+['INC', 'INS', 'JZ', 'DEC']
+['INC', 'DEC', 'ADD', 'DEC']
+['JNZ', 'JB', 'JB', 'ADD']
+['XCHG', 'SBB', 'SBB', 'SBB']
+['POPA', 'DEC', 'BOUND', 'JZ']
+['PUSH', 'PUSH', 'PUSH', 'CALL']
+['ADC', 'ADD', 'ADD', 'ADD']
+['MOV', 'LEA', 'LEA', 'CALL']
+['IMUL', 'POPA', 'PUSH', 'IMUL']
+['JZ', 'JB', 'ARPL', 'ADD']
+['ADD', 'AND', 'JMP', 'JMP']
+['LES', 'ADC', 'OR', 'AAM']
+['JMP', 'INC', 'ADD', 'ADD']
+['LEA', 'PUSH', 'CALL', 'FSTP']
+['MOV', 'MOV', 'LEA', 'CALL']
+['INS', 'INS', 'INS', 'XCHG']
+['ADC', 'ADC', 'ADC', 'ADC']
+['ADD', 'CWD', 'ADD', 'INT']
+['OR', 'PUSHF', 'OR', 'MOVSB']
+['INT', 'ADD', 'INC', 'XOR']
+['AND', 'AND', 'AND', 'OR']
+['ADC', 'AAM', 'ADC', 'ADC']
+['JAE', 'IMUL', 'POP', 'ADD']
+['ADD', 'INS', 'INS', 'INS']
+['JMP', 'SUB', 'JMP', 'ADD']
+['ADD', 'PUSH', 'CALL', 'TEST']
+['ADC', 'PUSH', 'ADC', 'POP']
+['INS', 'INS', 'XCHG', 'INS']
+['ADD', 'ADD', 'JG', 'ADD']
+['PUSH', 'JO', 'INS', 'XOR']
+['ADC', 'MOVUPS', 'IN', 'IN']
+['CMC', 'SBB', 'PADDUSW', 'PUSH']
+['PUSH', 'JO', 'INS', 'ADD']
+['IN', 'INS', 'ADD', 'ADD']
+['OUTS', 'OUTS', 'JZ', 'BOUND']
+['INC', 'ADD', 'OR', 'ADD']
+['MOV', 'MOV', 'POP', 'POP']
+['ADD', 'ADD', 'XOR', 'CDQ']
+['ADD', 'CMP', 'ADD', 'PUSH']
+['MOV', 'PUSH', 'PUSH', 'JB']
+['CALL', 'CALL', 'MOV', 'PUSH']
+['PUSH', 'JZ', 'PUSH', 'POPA']
+['MOV', 'PUSH', 'CALL', 'LEA']
+['OUTS', 'ADD', 'ADD', 'INC']
+['ADD', 'CMPSB', 'MOV', 'ADD']
+['AND', 'AND', 'OR', 'ADD']
+['INT', 'INT', 'ADD', 'INT']
+['ADD', 'IMUL', 'POP', 'ADD']
+['MOV', 'POP', 'INC', 'ADD']
+['ADD', 'ADD', 'DEC', 'PUSH']
+['ADD', 'INC', 'JB', 'POPA']
+['ADD', 'SBB', 'AND', 'AND']
+['DEC', 'XOR', 'ADD', 'OUT']
+['ADC', 'JZ', 'ADC', 'ADC']
+['AND', 'MOVSD', 'ADD', 'POP']
+['PUSH', 'PUSH', 'PUSH', 'IMUL']
+['PUSH', 'JB', 'JB', 'INS']
+['ADD', 'ADD', 'OR', 'TEST']
+['ADD', 'POP', 'JS', 'ADD']
+['DB', 'DEC', 'DB', 'FISTP']
+['XCHG', 'CMC', 'CMC', 'CMC']
+['OR', 'ADD', 'AND', 'ADD']
+['ADD', 'PUSH', 'ADD', 'POP']
+['JA', 'ADD', 'ADD', 'PUSH']
+['ADD', 'ADD', 'ADD', 'CLD']
+['PUSH', 'LEA', 'PUSH', 'LEA']
+['PUSH', 'ADD', 'DEC', 'ADD']
+['MOV', 'CALL', 'MOV', 'XOR']
+['ADD', 'ADC', 'ADD', 'ADC']
+['OR', 'JNZ', 'PCMPGTD', 'ADD']
+['ADD', 'ADD', 'ADD', 'PUSHA']
+['CDQ', 'INC', 'DEC', 'ADD']
+['ADD', 'ADD', 'SBB', 'SBB']
+['BOUND', 'JZ', 'POP', 'POP']
+['INC', 'CMP', 'ARPL', 'JBE']
+['MOV', 'PUSH', 'MOV', 'PUSH']
+['CLD', 'ADC', 'ADD', 'ADC']
+['CMP', 'FNCLEX', 'JGE', 'PUSH']
+['ADD', 'OR', 'ADD', 'PUSH']
+['JS', 'ADD', 'ADD', 'AND']
+['PCMPGTD', 'ADC', 'MOV', 'SAHF']
+['DAA', 'ADD', 'POP', 'JS']
+['ADD', 'DEC', 'ADD', 'ARPL']
+['XCHG', 'XCHG', 'XCHG', 'XCHG']
+['ADD', 'ADD', 'CMPSB', 'PUSH']
+['JBE', 'POPA', 'DEC', 'OUTS']
+['ADD', 'ADD', 'JNZ', 'INC']
+['JNS', 'JS', 'ADD', 'ADD']
+['XOR', 'MOV', 'INC', 'INC']
+['NOP', 'PUSH', 'MOV', 'SUB']
+['CMPSB', 'PUSH', 'IMUL', 'IN']
+['SBB', 'ADD', 'XOR', 'ADD']
+['ADD', 'ADD', 'JBE', 'IMUL']
+['ADD', 'INC', 'INT', 'ADD']
+['XOR', 'PUSH', 'MOV', 'PUSH']
+['OR', 'ADC', 'PUSH', 'ADC']
+['INS', 'INS', 'SLDT', 'ADD']
+['ADD', 'DEC', 'XOR', 'ADD']
+['ADC', 'OR', 'LES', 'ADC']
+['AND', 'OUTS', 'JB', 'INS']
+['CDQ', 'ADD', 'CDQ', 'CDQ']
+['XCHG', 'INC', 'OUTS', 'JB']
+['ADD', 'ADD', 'CWD', 'ADD']
+['ADD', 'POPA', 'ADD', 'ADD']
+['INC', 'JB', 'OUTS', 'JB']
+['INC', 'ADD', 'PUSH', 'JNZ']
+['INS', 'INS', 'INS', 'SLDT']
+['IN', 'ADC', 'OR', 'HLT']
+['INT', 'ADD', 'CDQ', 'INC']
+['DB', 'DB', 'DB', 'INC']
+['XOR', 'ADD', 'PUSH', 'ADD']
+['CALL', 'MOV', 'XOR', 'PUSH']
+['ADC', 'CLD', 'ADC', 'ADD']
+['JMP', 'JMP', 'JMP', 'PUSH']
+['ADD', 'POP', 'INC', 'DEC']
+['MOVUPS', 'MOVUPS', 'MOVUPS', 'ADC']
+['ADD', 'SUB', 'JMP', 'SUB']
+['ADD', 'INC', 'ADD', 'INS']
+['ADD', 'RET', 'LEA', 'CALL']
+['CMC', 'CMC', 'CMC', 'SBB']
+['ADD', 'DB', 'DB', 'INC']
+['PCMPGTD', 'PCMPGTD', 'INC', 'ADD']
+['POPA', 'JB', 'ADD', 'ADD']
+['ADC', 'ADC', 'CMP', 'ADC']
+['ADD', 'ADD', 'DEC', 'ADD']
+['ADC', 'IN', 'ADC', 'ADC']
+['JNZ', 'ARPL', 'OUTS', 'INC']
+['MOV', 'SAHF', 'ADD', 'RETF']
+['IMUL', 'PUSH', 'INC', 'DEC']
+['ADD', 'ADD', 'XCHG', 'ADD']
+['ADD', 'CDQ', 'ADD', 'INT']
+['INT', 'PUSH', 'PUSH', 'MOV']
+['POPA', 'DEC', 'OUTS', 'INC']
+['STOSB', 'ADD', 'XCHG', 'INC']
+['CALL', 'ADD', 'INC', 'JMP']
+['ADD', 'PUSH', 'INC', 'XCHG']
+['BOUND', 'JB', 'OUTS', 'AND']
+['ADD', 'DEC', 'XOR', 'DEC']
+['INS', 'POPA', 'JAE', 'ADD']
+['ADD', 'ADD', 'ADD', 'SUB']
+['ADD', 'ADD', 'JMP', 'ADD']
+['ADD', 'ADD', 'AND', 'ADC']
+['IN', 'IN', 'IN', 'INS']
+['INS', 'ADD', 'ADD', 'OR']
+['MOV', 'CALL', 'PUSH', 'JMP']
+['ADD', 'XOR', 'INC', 'ADD']
+['ADD', 'PUSH', 'ADD', 'CALL']
+['OUTS', 'ADD', 'ADD', 'OUTS']
+['CALL', 'LEA', 'CALL', 'CMP']
+['ADD', 'INT', 'INT', 'XOR']
+['PUSH', 'MOV', 'SUB', 'PUSH']
+['INT', 'ADD', 'ADD', 'XOR']
+['POP', 'POPA', 'PUSH', 'IMUL']
+['PUSH', 'OUTS', 'IMUL', 'ADD']
+['ADD', 'ADD', 'ADD', 'LODSD']
+['ADD', 'POPA', 'ADD', 'INC']
+['DEC', 'LODSD', 'XOR', 'OR']
+['INC', 'JB', 'DEC', 'BOUND']
+['OR', 'PUSH', 'OR', 'POP']
+['ADD', 'ADD', 'MOV', 'PUSH']
+['JZ', 'LEA', 'CALL', 'LEA']
+['ADD', 'DB', 'INC', 'XCHG']
+['CALL', 'WAIT', 'PUSH', 'JMP']
+['XCHG', 'OR', 'JBE', 'JO']
+['ADC', 'ADC', 'INC', 'ADC']
+['ADD', 'SBB', 'INC', 'ADD']
+['ADD', 'ADD', 'PUSHA', 'POPA']
+['JBE', 'JAE', 'AND', 'OUTS']
+['XOR', 'ADD', 'ADD', 'XOR']
+['SBB', 'SBB', 'POP', 'SBB']
+['JZ', 'BOUND', 'JB', 'OUTS']
+['POP', 'MOV', 'POP', 'MOV']
+['ADD', 'JA', 'XCHG', 'XCHG']
+['IN', 'IN', 'INS', 'INS']
+['MOV', 'PCMPGTD', 'ADC', 'MOV']
+['PUSH', 'CALL', 'MOV', 'LEA']
+['INT', 'INC', 'ADD', 'INC']
+['JB', 'ADD', 'JBE', 'POPA']
+['IMUL', 'ADD', 'JBE', 'POPA']
+['MOV', 'CALL', 'CMP', 'FNCLEX']
+['PUSH', 'JMP', 'TEST', 'JZ']
+['CMP', 'JNZ', 'PUSH', 'PUSH']
+['IN', 'XCHG', 'XCHG', 'IN']
+['INT', 'ADD', 'INT', 'INT']
+['CALL', 'CDQ', 'ADD', 'CDQ']
+['ADD', 'XOR', 'AND', 'PUSH']
+['ADD', 'MOV', 'XOR', 'ADD']
+['INT', 'ADD', 'INC', 'INT']
+['PUSH', 'INC', 'ADD', 'ADD']
+['ADD', 'ADD', 'ADD', 'JS']
+['CDQ', 'XOR', 'CDQ', 'XOR']
+['MOV', 'INC', 'ADD', 'ADD']
+['ADD', 'SUB', 'NOP', 'XOR']
+['OR', 'PUSH', 'ADD', 'ADD']
+['ADD', 'RETF', 'ADD', 'ADD']
+['ADC', 'OR', 'TEST', 'ADC']
+['MOV', 'STD', 'POP', 'PCMPGTD']
+['JO', 'ADD', 'ADD', 'ADD']
+['NOP', 'NOP', 'NOP', 'SAHF']
+['JO', 'XOR', 'INS', 'INS']
+['INC', 'DEC', 'DEC', 'INC']
+['IMUL', 'POP', 'IN', 'INS']
+['ADD', 'PUSH', 'ADD', 'ADD']
+['INC', 'ADD', 'AND', 'XCHG']
+['OR', 'CLD', 'OR', 'ADD']
+['POPA', 'PUSH', 'JZ', 'INC']
+['ADD', 'CDQ', 'INC', 'XOR']
+['ADD', 'ADD', 'CMP', 'PUSH']
+['ADD', 'ADD', 'INT', 'CDQ']
+['INT', 'INC', 'DB', 'PUSH']
+['NOP', 'NOP', 'SAHF', 'SAHF']
+['INS', 'JZ', 'DEC', 'JNS']
+['IMUL', 'XOR', 'IMUL', 'JBE']
+['PUSH', 'ADD', 'PUSH', 'ADD']
+['ADD', 'INC', 'OR', 'ADD']
+['ADC', 'ADC', 'XCHG', 'ADC']
+['JMP', 'ADD', 'ADD', 'OR']
+['RCL', 'MOV', 'LEA', 'ADC']
+['CDQ', 'ADD', 'ADD', 'INC']
+['AND', 'OUTS', 'OUTS', 'OUTS']
+['CALL', 'PUSH', 'JMP', 'TEST']
+['ADD', 'XOR', 'ADD', 'AND']
+['INC', 'PUSH', 'INC', 'DEC']
+['MOV', 'PUSH', 'PUSH', 'LEA']
+['SBB', 'SBB', 'ADC', 'MOVUPS']
+['ADD', 'ADD', 'POP', 'ADD']
+['JO', 'IMUL', 'POP', 'INC']
+['MOVUPS', 'IN', 'IN', 'INS']
+['INC', 'ADD', 'ADD', 'CALL']
+['PCMPGTD', 'ADD', 'INC', 'ADD']
+['PUSH', 'DEC', 'XOR', 'INC']
+['ADD', 'XOR', 'INC', 'INC']
+['JB', 'POPA', 'ADD', 'POPA']
+['SUB', 'POP', 'ADD', 'ADD']
+['PUSH', 'ADD', 'SBB', 'AND']
+['JZ', 'ADD', 'ADD', 'POP']
+['CALL', 'LEA', 'CALL', 'CALL']
+['ADC', 'DEC', 'ADC', 'PUSH']
+['ADD', 'XCHG', 'DEC', 'DEC']
+['LEA', 'CALL', 'CALL', 'MOV']
+['PUSH', 'PCMPGTD', 'FIADD', 'INT']
+['CDQ', 'ADD', 'XOR', 'ADD']
+['ADD', 'ADC', 'ADD', 'XOR']
+['INC', 'SBB', 'IN', 'INS']
+['JZ', 'JB', 'IMUL', 'INC']
+['POPA', 'JB', 'ADD', 'JBE']
+['ADD', 'AND', 'ADD', 'SBB']
+['SBB', 'SBB', 'SBB', 'POP']
+['ADD', 'ADD', 'ADD', 'POPA']
+['PUSH', 'ADD', 'DEC', 'PUSH']
+['SBB', 'SBB', 'INS', 'INS']
+['CALL', 'MOV', 'MOV', 'LEA']
+['ADD', 'ADD', 'XOR', 'INC']
+['JBE', 'POPA', 'INC', 'PUSH']
+['JZ', 'ADD', 'ADD', 'ADD']
+['IMUL', 'POP', 'ADD', 'IMUL']
+['CALL', 'MOV', 'CALL', 'MOV']
+['JB', 'OUTS', 'JB', 'ADD']
+['ADD', 'ADC', 'DEC', 'ADD']
+['INC', 'ADD', 'ADD', 'ARPL']
+['ADD', 'ADD', 'ADD', 'JB']
+['CDQ', 'ADD', 'INT', 'ADD']
+['PUSH', 'POPA', 'JB', 'PUSH']
+['OR', 'ADC', 'ADC', 'OR']
+['ADD', 'ADD', 'OR', 'OR']
+['OR', 'LODSB', 'OR', 'MOV']
+['INC', 'XOR', 'ADD', 'XOR']
+1
+1
+1
+2
+1
+2
+2
+2
+1
+3
+2
+1
+1
+1
+1
+5
+1
+1
+1
+1
+1
+2
+2
+2
+1
+1
+1
+1
+1
+1
+1
+4
+9
+1
+1
+2
+1
+1
+6
+1
+2
+2
+1
+1
+1
+1
+1
+1
+1
+4
+1
+1
+2
+1
+1
+1
+4
+2
+1
+1
+1
+7
+1
+2
+2
+1
+5
+1
+1
+32
+3
+2
+1
+14
+2
+1
+2
+1
+4
+1
+2
+3
+1
+2
+8
+1
+5
+1
+4
+1
+5
+4
+4
+1
+1
+1
+1
+5
+2
+2
+3
+1
+1
+2
+1
+1
+1
+4
+2
+2
+7
+1
+1
+8
+1
+1
+1
+2
+2
+1
+1
+1
+1
+2
+4
+1
+3
+2
+4
+1
+1
+1
+8
+1
+2
+2
+10
+2
+2
+2
+1
+1
+2
+1
+2
+1
+2
+5
+1
+1
+4
+1
+8
+3
+1
+31
+1
+5
+6
+2
+1
+2
+1
+2
+2
+4
+2
+1
+2
+10
+1
+1
+5
+1
+1
+13
+1
+2
+4
+1
+2
+1
+2
+4
+1
+3
+1
+1
+1
+2
+1
+1
+2
+1
+8
+5
+1
+1
+7
+1
+3
+1
+1
+5
+3
+1
+6
+2
+1
+1
+2
+1
+10
+2
+1
+2
+1
+5
+7
+2
+1
+2
+2
+2
+2
+1
+2
+1
+2
+2
+1
+1
+2
+2
+1
+1
+2
+2
+1
+2
+2
+1
+2
+1
+1
+2
+5
+1
+4
+1
+1
+1
+1
+1
+3
+3
+1
+1
+1
+2
+2
+2
+1
+1
+2
+13
+10
+2
+4
+2
+3
+1
+3
+5
+4
+1
+1
+1
+1
+1
+29
+4
+1
+2
+8
+2
+2
+1
+4
+4
+1
+1
+1
+3
+2
+2
+1
+2
+5
+7
+3
+1
+2
+1
+7
+5
+1
+4
+2
+1
+5
+1
+2
+1
+1
+1
+3
+1
+2
+2
+8
+5
+1
+1
+2
+3
+1
+3
+1
+1
+2
+2
+1
+2
+4
+12
+10
+1
+1
+1
+6
+2
+2
+4
+1
+1
+2
+4
+1
+8
+3
+1
+1
+4
+1
+1
+1
+5
+1
+2
+1
+2
+1
+24
+1
+1
+1
+2
+2
+2
+2
+1
+2
+1
+2
+2
+2
+6
+5
+1
+1
+1
+2
+2
+6
+3
+2
+5
+2
+2
+2
+1
+3
+2
+8
+10
+2
+1
+2
+1
+1
+5
+2
+2
+1
+1
+2
+6
+2
+1
+5
+2
+2
+2
+1
+1
+7
+1
+1
+1
+30
+5
+2
+1
+1
+1
+1
+1
+15
+4
+2
+4
+1
+2
+2
+2
+1
+2
+11
+1
+1
+2
+5
+3
+2
+2
+1
+9
+1
+7
+1
+1
+1
+2
+2
+4
+2
+1
+1
+1
+4
+1
+2
+2
+5
+2
+1
+2
+2
+1
+7
+2
+2
+1
+1
+1
+8
+2
+2
+2
+1
+1
+2
+3
+1
+2
+1
+1
+2
+1
+1
+5
+1
+2
+2
+40
+6
+5
+4
+1
+1
+1
+1
+5
+6
+4
+4
+2
+1
+2
+6
+2
+7
+1
+1
+4
+1
+1
+1
+1
+1
+5
+1
+1
+1
+9
+1
+2
+1
+1
+1
+2
+1
+1
+1
+1
+2
+2
+1
+3
+6
+1
+1
+1
+2
+1
+3
+1
+1
+4
+2
+2
+2
+2
+8
+1
+1
+6
+2
+2
+1
+1
+2
+1
+7
+2
+1
+5
+1
+1
+1
+1
+4
+2
+2
+2
+1
+2
+2
+2
+1
+4
+1
+1
+1
+1
+6
+2
+2
+1
+1
+1
+1
+3
+4
+1
+1
+1
+2
+1
+5
+2
+5
+1
+5
+1
+2
+2
+12
+1
+2
+2
+3
+2
+1
+7
+2
+2
+1
+2
+1
+1
+1
+2
+4
+1
+2
+2
+1
+4
+1
+2
+7
+2
+6
+2
+2
+42
+2
+2
+1
+2
+5
+1
+1
+2
+2
+1
+1
+4
+3
+1
+11
+2
+7
+3
+1
+1
+1
+2
+13
+1
+1
+2
+1
+3
+1
+23
+1
+4
+1
+4
+1
+2
+1
+10
+7
+1
+1
+2
+2
+1
+4
+2
+1
+1
+1
+1
+1
+4
+33
+1
+2
+1
+5453
+3
+2
+1
+2
+2
+15
+1
+1
+2
+2
+2
+1
+1
+2
+2
+1
+1
+1
+3
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+1
+1
+2
+2
+6
+2
+1
+1
+1
+1
+1
+2
+2
+3
+52
+2
+8
+4
+1
+1
+2
+2
+3
+1
+2
+1
+2
+1
+5
+2
+2
+2
+1
+1
+1
+1
+1
+2
+1
+1
+5
+2
+2
+4
+6
+4
+1
+1
+2
+1
+1
+2
+6
+1
+1
+1
+1
+1
+4
+1
+1
+4
+1
+1
+1
+1
+2
+2
+1
+4
+1
+2
+2
+2
+1
+1
+2
+5
+1
+1
+2
+4
+2
+2
+2
+1
+2
+2
+1
+1
+2
+1
+1
+2
+1
+1
+1
+4
+2
+2
+1
+2
+4
+1
+2
+2
+1
+1
+1
+1
+1
+2
+1
+1
+1
+1
+1
+1
+1
+4
+1
+1
+2
+1
+4
+4
+8
+1
+1
+1
+5
+1
+1
+1
+2
+1
+1
+2
+1
+3
+2
+1
+2
+1
+1
+2
+2
+4
+1
+2
+2
+1
+3
+1
+2
+4
+1
+1
+5
+1
+26
+1
+2
+1
+1
+1
+2
+1
+48
+2
+1
+1
+1
+23
+2
+1
+4
+1
+2
+9
+1
+4
+3
+1
+2
+1
+2
+2
+7
+1
+1
+1
+1
+1
+1
+1
+4
+1
+1
+1
+1
+4
+2
+1
+2
+2
+1
+2
+2
+2
+1
+5
+8
+1
+2
+2
+1
+1
+2
+2
+1
+4
+1
+1
+2
+2
+10
+2
+4
+3
+2
+2
+1
+3
+21
+4
+1
+5
+2
+2
+2
+1
+6
+1
+4
+1
+2
+2
+1
+4
+1
+1
+6
+1
+1
+1
+1
+2
+2
+1
+1
+2
+1
+1
+2
+1
+1
+6
+2
+16
+2
+2
+1
+70
+1
+1
+1
+1
+2
+2
+5
+2
+4
+2
+5
+2
+1
+1
+2
+2
+2
+5
+1
+4
+5
+1
+2
+1
+2
+1
+1
+2
+5
+2
+3
+1
+2
+1
+2
+2
+4
+1
+1
+2
+1
+1
+3
+1
+1
+1
+1
+2
+1
+3
+1
+2
+14
+2
+1
+4
+2
+1
+1
+2
+2
+1
+1
+7
+2
+1
+2
+1
+3
+4
+1
+2
+1
+1
+1
+2
+3
+2
+2
+1
+2
+1
+1
+1
+2
+2
+2
+5
+2
+1
+1
+3
+29
+3
+2
+3
+1
+2
+1
+4
+5
+2
+1
+1
+2
+1
+1
+1
+2
+1
+1
+1
+5
+2
+1
+4
+6
+3
+1
+2
+1
+2
+2
+1
+1
+1
+2
+2
+1
+1
+4
+1
+1
+2
+1
+2
+4
+1
+6
+2
+2
+1
+2
+3
+1
+4
+1
+1
+2
+8
+2
+1
+5
+40
+1
+2
+2
+1
+2
+4
+2
+2
+8
+8
+2
+1
+1
+8
+1
+2
+2
+1
+2
+2
+2
+1
+2
+1
+1
+2
+6
+2
+2
+1
+2
+3
+7
+16
+3
+2
+5
+2
+1
+1
+10
+1
+17
+4
+1
+2
+20
+5
+2
+5
+7
+4
+31
+1
+1
+2
+1
+2
+2
+2
+2
+2
+2
+1
+2
+2
+10
+1
+1
+1
+1
+2
+1
+1
+1
+11
+1
+1
+1
+6
+2
+2
+1
+1
+1
+2
+13
+1
+2
+1
+1
+1
+1
+7
+1
+1
+1
+1
+2
+1
+1
+1
+4
+2
+2
+1
+1
+1
+1
+1
+2
+5
+1
+2
+1
+2
+2
+1
+1
+2
+2
+3
+2
+2
+1
+2
+36
+1
+2
+1
+1
+2
+1
+2
+2
+1
+24
+1
+2
+1
+5
+1
+1
+1
+2
+4
+4
+1
+1
+23
+1
+1
+7
+2
+2
+2
+10
+2
+2
+2
+2
+4
+5
+1
+1
+2
+1
+4
+9
+4
+1
+2
+2
+3
+3
+6
+1
+1
+4
+1
+1
+2
+1
+2
+1
+2
+1
+3
+2
+1
+1
+1
+1
+1
+2
+1
+1
+2
+5
+1
+1
+3
+2
+2
+10
+7
+1
+12
+1
+1
+2
+2
+6
+1
+2
+1
+2
+3
+1
+2
+1
+1
+1
+8
+1
+1
+2
+2
+24
+1
+14
+1
+5
+1
+1
+2
+1
+2
+2
+2
+1
+8
+1
+1
+1
+2
+1
+1
+2
+2
+4
+1
+1
+3
+1
+1
+1
+1
+1
+1
+2
+2
+2
+1
+1
+2
+1
+5
+2
+5
+5
+1
+5
+5
+1
+2
+2
+4
+1
+2
+2
+2
+8
+1
+1
+2
+1
+1
+2
+1
+1
+4
+2
+1
+6
+1
+1
+1
+8
+2
+2
+2
+16
+2
+2
+1
+30
+1
+2
+4
+2
+1
+2
+2
+1
+3
+2
+2
+1
+2
+2
+5
+1
+2
+1
+1
+2
+2
+1
+2
+1
+4
+4
+1
+2
+1
+1
+3
+1
+7
+2
+5
+1
+6
+2
+1
+1
+2
+1
+25
+1
+1
+2
+2
+2
+1
+1
+7
+6
+2
+2
+1
+2
+2
+2
+15
+2
+2
+2
+2
+2
+2
+9
+1
+4
+1
+9
+5
+1
+2
+1
+1
+1
+1
+1
+1
+2
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+5
+2
+1
+6
+1
+1
+5
+2
+2
+1
+1
+1
+1
+1
+1
+2
+1
+2
+1
+1
+2
+2
+3
+1
+1
+6
+1
+1
+1
+3
+1
+3
+10
+2
+1
+1
+2
+1
+1
+2
+4
+1
+2
+1
+2
+2
+2
+4
+4
+6
+5
+1
+1
+25
+2
+3
+2
+1
+4
+1
+1
+1
+1
+1
+4
+1
+4
+1
+5
+2
+2
+2
+9
+2
+2
+1
+1
+4
+4
+1
+2
+2
+2
+2
+9
+1
+1
+1
+2
+1
+1
+1
+2
+2
+2
+1
+2
+2
+5
+1
+1
+1
+1
+1
+2
+5
+1
+4
+2
+10
+2
+2
+1
+1
+1
+1
+1
+2
+4
+2
+1
+2
+1
+2
+1
+2
+1
+2
+4
+2
+1
+5
+5
+1
+1
+1
+56
+2
+2
+2
+1
+2
+2
+2
+1
+2
+2
+1
+1
+1
+1
+1
+2
+1
+32
+1
+3
+4
+1
+2
+15
+10
+1
+1
+7
+3
+2
+2
+1
+2
+1
+1
+1
+5
+2
+1
+2
+6
+4
+7
+1
+3
+1
+4
+1
+1
+1
+1
+1
+2
+3
+3
+2
+1
+4
+36
+2
+1
+2
+1
+1
+1
+1
+1
+2
+1
+4
+2
+2
+4
+2
+1
+1
+4
+2
+2
+2
+2
+2
+2
+2
+7
+1
+8
+1
+1
+1
+1
+1
+1
+5
+1
+1
+1
+5
+3
+1
+1
+7
+1
+4
+2
+1
+1
+2
+1
+5
+2
+1
+2
+1
+7
+2
+1
+4
+2
+1
+2
+1
+19
+10
+2
+1
+1
+1
+5
+1
+2
+1
+2
+1
+1
+2
+1
+1
+5
+1
+1
+1
+2
+2
+2
+1
+1
+1
+1
+1
+1
+2
+28
+5
+1
+1
+2
+1
+6
+2
+2
+2
+4
+1
+4
+2
+7
+2
+2
+1
+3
+1
+3
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+2
+18
+12
+1
+1
+2
+1
+4
+1
+1
+1
+2
+16
+8
+5
+2
+1
+5
+1
+3
+1
+1
+5
+2
+3
+1
+2
+2
+1
+2
+1
+2
+5
+2
+2
+1
+1
+4
+1
+2
+1
+1
+12
+2
+1
+3
+1
+2
+1
+5
+2
+2
+1
+1
+1
+1
+6
+1
+2
+1
+1
+9
+4
+2
+2
+1
+2
+2
+8
+1
+1
+2
+5
+6
+2
+2
+1
+1
+1
+74
+2
+4
+1
+1
+1
+4
+2
+1
+1
+2
+1
+1
+16
+2
+4
+1
+2
+1
+6
+2
+6
+1
+10
+5
+8
+3
+2
+2
+5
+1
+4
+1
+1
+3
+1
+4
+7
+1
+3
+1
+5
+5
+1
+1
+1
+1
+6
+1
+4
+1
+2
+2
+1
+2
+1
+3
+2
+1
+4
+1
+1
+2
+2
+1
+1
+2
+10
+2
+4
+2
+1
+1
+4
+4
+5
+2
+1
+2
+1
+1
+4
+1
+1
+1
+4
+2
+1
+3
+2
+8
+1
+6
+1
+2
+1
+6
+1
+3
+2
+4
+2
+1
+1
+2
+1
+2
+2
+2
+1
+1
+2
+4
+1
+2
+1
+1
+1
+2
+8
+1
+5
+4
+2
+2
+2
+2
+1
+1
+1
+1
+1
+4
+1
+1
+1
+1
+1
+2
+1
+1
+2
+2
+1
+2
+2
+1
+2
+1
+2
+1
+2
+1
+2
+5
+1
+1
+1
+8
+1
+4
+1
+1
+1
+2
+3
+1
+2
+3
+3
+2
+1
+2
+3
+5
+1
+1
+3
+6
+2
+4
+2
+5
+4
